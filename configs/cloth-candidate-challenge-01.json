@@ -1,0 +1,8 @@
+{
+  "reference": "checkpoints/cloth-dagger-r1-9549e9c8-7a416662/runs/cloth-dagger-validation-01/protocol.json",
+  "scenes": [253116, 253118, 253121, 253129],
+  "edge_y_mm": [37, -37, -32, 32],
+  "permutation_seed": 253001,
+  "arms": ["raw", "wm", "rule"],
+  "design": "Prospective development only; frozen pi0.5 grasp and DAgger goal adapters, online grasp WM and terminal landing WM, no weight or threshold updates. One actual from-home grasp prefix per new scene and color swap. Natural task: raw student, WM using anonymous RGB regions, and an RGB rule that keeps the student on teacher failure. Controlled injection: the harness uses surveyed patch poses (not the colors) to supply both patch centers and two equally displaced edge points. Shuffle the same four XYs independently of color; rotate all four as the preferred proposal. WM sees only the pre-action RGB, joints, calibration and anonymous XYs. Rule sees the same menu; keep a verified proposal, otherwise select the inset option closest to the RGB expert center, abstain if no safe option, retain the original on missing expert. Physically execute all four probes, plus all distinct natural or abstention commands. Identical selected actions at a handoff share one measured suffix. Rotate the uninterrupted suffix, restore physical state, not contact cache, for others. Score all scheduled handoffs and report failed grasps, red choices, safe points spoiled, edge rescues, retention and abstention separately. No test runs or real hardware."
+}

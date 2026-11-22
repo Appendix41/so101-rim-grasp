@@ -1,0 +1,5 @@
+# CPU replay only. No simulator, robot driver, credentials or torch required.
+numpy>=1.26,<3
+scipy>=1.11,<2
+h5py>=3.10,<4
+opencv-python-headless>=4.8,<5

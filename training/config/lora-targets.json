@@ -1,0 +1,5 @@
+{
+  "r": 8,
+  "lora_alpha": 16,
+  "target_modules": "(.*\\.gemma_expert\\..*\\.self_attn\\.(q|v)_proj|model\\.(state_proj|action_in_proj|action_out_proj|action_time_mlp_in|action_time_mlp_out))"
+}

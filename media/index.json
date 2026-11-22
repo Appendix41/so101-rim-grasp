@@ -1,0 +1,50 @@
+{
+  "candidate-probes.mp4": {
+    "width": 960,
+    "height": 630,
+    "fps": 15.0,
+    "decoded_frames": 347,
+    "duration_s": 23.133,
+    "codec": "h264"
+  },
+  "dagger-world-model.mp4": {
+    "width": 1600,
+    "height": 598,
+    "fps": 15.0,
+    "decoded_frames": 2568,
+    "duration_s": 171.2,
+    "codec": "h264"
+  },
+  "expert-reference-actor-01.mp4": {
+    "width": 1004,
+    "height": 606,
+    "fps": 15.0,
+    "decoded_frames": 97,
+    "duration_s": 6.467,
+    "codec": "h264"
+  },
+  "natural.mp4": {
+    "width": 960,
+    "height": 630,
+    "fps": 15.0,
+    "decoded_frames": 2568,
+    "duration_s": 171.2,
+    "codec": "h264"
+  },
+  "student-vs-world-model.mp4": {
+    "width": 640,
+    "height": 630,
+    "fps": 15.0,
+    "decoded_frames": 321,
+    "duration_s": 21.4,
+    "codec": "h264"
+  },
+  "wm-home-comparison.mp4": {
+    "width": 960,
+    "height": 584,
+    "fps": 15.0,
+    "decoded_frames": 904,
+    "duration_s": 60.267,
+    "codec": "h264"
+  }
+}

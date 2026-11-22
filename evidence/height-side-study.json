@@ -1,0 +1,153 @@
+{
+  "protocol_sha256": "bea8135337d2a11e5ca0dacb962d256ebdd6fdc15a624d5df6b35d69faecc82d",
+  "summary": {
+    "nominal": {
+      "n": 4,
+      "physical": 4,
+      "rejected": 0,
+      "strict": 4,
+      "pipeline": 4,
+      "lifted": 4,
+      "held": 4,
+      "selected_correct": 4,
+      "held_and_selected_correct": 4,
+      "outcomes": {
+        "success": 4
+      }
+    },
+    "cloth_only": {
+      "n": 4,
+      "physical": 4,
+      "rejected": 0,
+      "strict": 2,
+      "pipeline": 2,
+      "lifted": 4,
+      "held": 4,
+      "selected_correct": 4,
+      "held_and_selected_correct": 4,
+      "outcomes": {
+        "carry_IK": 1,
+        "overhang": 1,
+        "success": 2
+      }
+    },
+    "can_xy_only": {
+      "n": 4,
+      "physical": 4,
+      "rejected": 0,
+      "strict": 4,
+      "pipeline": 4,
+      "lifted": 4,
+      "held": 4,
+      "selected_correct": 4,
+      "held_and_selected_correct": 4,
+      "outcomes": {
+        "success": 4
+      }
+    },
+    "height60": {
+      "n": 4,
+      "physical": 4,
+      "rejected": 0,
+      "strict": 1,
+      "pipeline": 0,
+      "lifted": 4,
+      "held": 2,
+      "selected_correct": 4,
+      "held_and_selected_correct": 2,
+      "outcomes": {
+        "missed_target": 2,
+        "success": 1,
+        "not_lifted_at_handoff": 1
+      }
+    },
+    "height120": {
+      "n": 4,
+      "physical": 4,
+      "rejected": 0,
+      "strict": 0,
+      "pipeline": 0,
+      "lifted": 0,
+      "held": 0,
+      "selected_correct": 4,
+      "held_and_selected_correct": 0,
+      "outcomes": {
+        "grasp_planning_error": 4
+      }
+    },
+    "joint60": {
+      "n": 4,
+      "physical": 4,
+      "rejected": 0,
+      "strict": 0,
+      "pipeline": 0,
+      "lifted": 2,
+      "held": 1,
+      "selected_correct": 4,
+      "held_and_selected_correct": 1,
+      "outcomes": {
+        "missed_target": 1,
+        "not_lifted_at_handoff": 2,
+        "lost_at_handoff": 1
+      }
+    },
+    "joint120": {
+      "n": 4,
+      "physical": 4,
+      "rejected": 0,
+      "strict": 1,
+      "pipeline": 1,
+      "lifted": 2,
+      "held": 2,
+      "selected_correct": 4,
+      "held_and_selected_correct": 2,
+      "outcomes": {
+        "success": 1,
+        "grasp_vision_error": 2,
+        "carry_IK": 1
+      }
+    },
+    "novel_only": {
+      "n": 4,
+      "physical": 0,
+      "rejected": 4,
+      "strict": 0,
+      "pipeline": 0,
+      "lifted": 0,
+      "held": 0,
+      "selected_correct": 0,
+      "held_and_selected_correct": 0,
+      "outcomes": {
+        "unsupported_instruction": 4
+      }
+    },
+    "novel_joint60": {
+      "n": 4,
+      "physical": 0,
+      "rejected": 4,
+      "strict": 0,
+      "pipeline": 0,
+      "lifted": 0,
+      "held": 0,
+      "selected_correct": 0,
+      "held_and_selected_correct": 0,
+      "outcomes": {
+        "unsupported_instruction": 4
+      }
+    },
+    "novel_joint120": {
+      "n": 4,
+      "physical": 0,
+      "rejected": 4,
+      "strict": 0,
+      "pipeline": 0,
+      "lifted": 0,
+      "held": 0,
+      "selected_correct": 0,
+      "held_and_selected_correct": 0,
+      "outcomes": {
+        "unsupported_instruction": 4
+      }
+    }
+  }
+}

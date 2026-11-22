@@ -1,0 +1,13 @@
+{
+  "reference": "runs/cloth-wm-color-fit-01/eval_protocol.json",
+  "rollback": "checkpoints/cloth-color-v1-d7148f68",
+  "previous_goal": "runs/cloth-wm-color-fit-01/placement_goal_adapter",
+  "previous_sha256": "d7148f68e5f429cd5e63db582ac8d3c39ad264c8f107ee9647db603441f59916",
+  "train_scenes": [251100,251102,251103,251104,251105,251106,251107,251108],
+  "development_scenes": [251711,251714,251735,251742],
+  "train_methods": ["behavior","previous","probe"],
+  "development_methods": ["previous","dagger","landing_wm","visual_rule","expert"],
+  "training": {"steps":192,"lr":0.00007,"seed":251333,"min_pairs":4},
+  "world_model": {"neighbors":4,"student_preference":0.12,"min_strict":0.45,"min_black":0.6},
+  "design": "One new physical from-home policy + online grasp-WM prefix per scene/color. Save the actual handoff decision and actuator state. All placement variants consume the same handoff RGB and start state; rotate first uninterrupted branch, then restore (contact cache unavailable). Train: student proposes, RGB expert labels every valid decision, mixed behavior replaces targets outside the 50 mm radius plus 5 mm slack inset, or inconsistent/no target. Execute uncorrected student and a balanced red / near-edge / over-edge / center calibration probe too. Retrain only placement LoRA using original examples and new matched swap pairs. Fit a separate action-conditioned terminal outcome model from real simulated placement outcomes (final can XY, color, strictness and last-2s clearance), never expert agreement as outcome. Dev: compare previous, DAgger, DAgger + model reranking candidate goals, simple visual correction rule, always expert. All share the original grasp stack; no RL, test access or real hardware."
+}

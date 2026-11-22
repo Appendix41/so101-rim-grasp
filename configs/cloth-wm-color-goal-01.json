@@ -1,0 +1,11 @@
+{
+  "parent": "runs/cloth-frozen-v1-01/pretrained_model",
+  "parent_sha256": "47b6b912801531884133ae631964b3e07ca01e275cf40a04d272ea2444b46a0c",
+  "wm_sha256": "ee5fba120342b01a29830918617fd45538bb91e06827af70fb41ff7d5ce726ea",
+  "held_teacher": "runs/cloth-shifted-teacher-01",
+  "regrasp_train": "runs/cloth-wm-train-01",
+  "reference": "configs/cloth-full-views-01.json",
+  "training": {"seed": 250001, "steps": 240, "lr": 0.00019, "batch_pairs": 2},
+  "development_seeds": [250023, 250031, 250036, 250037],
+  "design": "Black only; paired swapped colors. Copy the exact successful grasp adapter; train only its placement copy as a deterministic pixel goal readout. Keep both the original grasp adapter and its online closure world model unchanged. Use existing train-only teacher and actual regrasp images. A/B independent full home starts on shifted layouts: learned RGB-to-pixel goal versus the established multi-view geometric teacher. Identical carry, hold, release and strict scoring. Never fall back to the teacher or an annotated slot on the learned branch. Final checkpoint only. No RL or test-set access."
+}

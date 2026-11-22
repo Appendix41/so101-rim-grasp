@@ -1,0 +1,47 @@
+{
+  "protocol_sha256": "7cf8921fd83f84fed0a69c5d6bac3fe7eff2b91d0d6f911cea04bf502e6df1bd",
+  "summary": {
+    "center": {
+      "n": 40,
+      "gate": 39,
+      "held": 0,
+      "lifted": 3,
+      "lifted_by_handoff": 3,
+      "proposals": 39,
+      "proposed_correct": 19,
+      "proposal_center": 0,
+      "strict": 0,
+      "centered": 0,
+      "final_on_correct": 10,
+      "ik_executed": 39,
+      "final_center_error_median_mm": 159.1605417502421,
+      "proposal_error_median_mm": 95.1936840707677,
+      "first_outcomes": {
+        "lost_before_handoff": 3,
+        "not_held_at_handoff": 36,
+        "no_jaw_event": 1
+      }
+    },
+    "original": {
+      "n": 8,
+      "gate": 8,
+      "held": 0,
+      "lifted": 2,
+      "lifted_by_handoff": 2,
+      "proposals": 8,
+      "proposed_correct": 4,
+      "proposal_center": 0,
+      "strict": 1,
+      "centered": 0,
+      "final_on_correct": 1,
+      "ik_executed": 8,
+      "final_center_error_median_mm": 157.17435208715324,
+      "proposal_error_median_mm": 104.08833240474756,
+      "first_outcomes": {
+        "not_held_at_handoff": 6,
+        "lost_before_handoff": 1,
+        "on_cloth_off_center": 1
+      }
+    }
+  }
+}

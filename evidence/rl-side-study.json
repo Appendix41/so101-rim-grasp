@@ -1,0 +1,40 @@
+{
+  "protocol_sha256": "1280efddfabc1c457df0e3df1a3e3d518db0073d57e3c8a02face61d4992b97e",
+  "training": {
+    "sources": {
+      "reference": {
+        "n": 4,
+        "success": 0,
+        "physical_lift": 0
+      },
+      "expert": {
+        "n": 8,
+        "success": 8,
+        "physical_lift": 8
+      },
+      "actor": {
+        "n": 8,
+        "success": 0,
+        "physical_lift": 1
+      }
+    },
+    "online_updates": 1280,
+    "actor_updates": 640
+  },
+  "evaluation": {
+    "unit": "four new paired policy noise seeds; NOT four independent scenes",
+    "primary": "stable grasp success after scripted pre-grasp; no expert action after takeover",
+    "arms": {
+      "reference": {
+        "n": 4,
+        "grasp_success": 0,
+        "physical_lift": 0
+      },
+      "actor": {
+        "n": 4,
+        "grasp_success": 0,
+        "physical_lift": 0
+      }
+    }
+  }
+}

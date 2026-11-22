@@ -1,0 +1,59 @@
+{
+  "protocol": "cloth-full-goal-v1",
+  "split": "train",
+  "scenes": [
+    251100,
+    251102,
+    251103,
+    251104,
+    251105,
+    251106,
+    251107,
+    251108
+  ],
+  "adapter_sha256": "47b6b912801531884133ae631964b3e07ca01e275cf40a04d272ea2444b46a0c",
+  "estimator_sha256": "00af61e3223fa16923aef60a971df43f43e3c8fb2499629cbc44dbf9dc13ff4b",
+  "detector_sha256": "1e47230b03feb3014fe722bf8d13e1ce351c14f5170f18a96b042e94fbf62a9e",
+  "wm_dir": "runs/cloth-wm-fit-01",
+  "noise_seed": 246101,
+  "chunk": 50,
+  "control_hz": 15,
+  "physics_hz": 120,
+  "grip_rad": -0.17,
+  "gate_frames": [
+    30,
+    70
+  ],
+  "jaw_gate_rad": 0.12,
+  "branch_frames": 104,
+  "episode_frames": 320,
+  "rim_offset_m": [
+    0.049,
+    0
+  ],
+  "conditions": [
+    "paired_goals"
+  ],
+  "home_only_comparison": true,
+  "wrist_hand_calibration": true,
+  "design": "One new physical from-home policy + online grasp-WM prefix per scene/color. Save the actual handoff decision and actuator state. All placement variants consume the same handoff RGB and start state; rotate first uninterrupted branch, then restore (contact cache unavailable). Train: student proposes, RGB expert labels every valid decision, mixed behavior replaces targets outside the 50 mm radius plus 5 mm slack inset, or inconsistent/no target. Execute uncorrected student and a balanced red / near-edge / over-edge / center calibration probe too. Retrain only placement LoRA using original examples and new matched swap pairs. Fit a separate action-conditioned terminal outcome model from real simulated placement outcomes (final can XY, color, strictness and last-2s clearance), never expert agreement as outcome. Dev: compare previous, DAgger, DAgger + model reranking candidate goals, simple visual correction rule, always expert. All share the original grasp stack; no RL, test access or real hardware.",
+  "geometry": "shifted_scene",
+  "goal_checkpoint": "runs/cloth-wm-color-fit-01/placement_goal_adapter",
+  "goal_sha256": "d7148f68e5f429cd5e63db582ac8d3c39ad264c8f107ee9647db603441f59916",
+  "wm_sha256": "ee5fba120342b01a29830918617fd45538bb91e06827af70fb41ff7d5ce726ea",
+  "dagger_round": 1,
+  "previous_sha256": "d7148f68e5f429cd5e63db582ac8d3c39ad264c8f107ee9647db603441f59916",
+  "previous_goal": "runs/cloth-wm-color-fit-01/placement_goal_adapter",
+  "placement_methods": [
+    "behavior",
+    "previous",
+    "probe"
+  ],
+  "world_model": {
+    "neighbors": 4,
+    "student_preference": 0.12,
+    "min_strict": 0.45,
+    "min_black": 0.6
+  },
+  "registered_sha256": "eeff569bd68cb91bd06c645fca664741560fa573b5a697fa691d9fe3b8fed337"
+}

@@ -1,0 +1,30 @@
+{
+  "steps": 192,
+  "old_pairs": 19,
+  "new_pairs": 8,
+  "changed_tensors": 76,
+  "trainable_parameters": 643584,
+  "train_mae_before_old_new": [
+    [
+      1.2710508108139038,
+      1.185323715209961
+    ],
+    [
+      15.786993980407715,
+      9.241305351257324
+    ]
+  ],
+  "train_mae_after_old_new": [
+    [
+      0.9995677471160889,
+      0.9901356101036072
+    ],
+    [
+      1.4842902421951294,
+      1.023791790008545
+    ]
+  ],
+  "sha256": "9549e9c87ded3fe2abb8513d9c79549aaf712392c30b563999b11d718f939d94",
+  "parent_sha256": "d7148f68e5f429cd5e63db582ac8d3c39ad264c8f107ee9647db603441f59916",
+  "recipe_sha256": "ac0ef034da1a04764109e155693a98083fe4bddfede4a0592f04d8415a89da3a"
+}

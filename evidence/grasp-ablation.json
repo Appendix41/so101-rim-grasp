@@ -1,0 +1,733 @@
+{
+  "model_sha256": "ee5fba120342b01a29830918617fd45538bb91e06827af70fb41ff7d5ce726ea",
+  "summary": {
+    "live": {
+      "starts": 8,
+      "gates": 8,
+      "held": 1,
+      "retries": 0,
+      "mean_success_s": 3.1666666666666665,
+      "mean_capped_s": 6.4625
+    },
+    "vision": {
+      "starts": 8,
+      "gates": 8,
+      "held": 8,
+      "retries": 8,
+      "mean_success_s": 5.814583333333333,
+      "mean_capped_s": 5.814583333333333
+    },
+    "selector": {
+      "starts": 8,
+      "gates": 8,
+      "held": 8,
+      "retries": 8,
+      "mean_success_s": 5.823958333333334,
+      "mean_capped_s": 5.823958333333334
+    }
+  },
+  "skill_errors": {
+    "live": {
+      "forecast_mae": [
+        0.7896261691222491,
+        0.8132184345825778
+      ],
+      "prior_mae": [
+        1.2259025882593875,
+        1.2568438996585174
+      ]
+    },
+    "vision": {
+      "forecast_mae": [
+        0.5900362030223328,
+        0.5411220363298742
+      ],
+      "prior_mae": [
+        0.9578072917619226,
+        0.8104633262423219
+      ]
+    }
+  },
+  "rows": [
+    {
+      "scene": 247505,
+      "layout": "12",
+      "condition": "live",
+      "action": "live",
+      "gate": 47,
+      "held": false,
+      "first_s": null,
+      "planning_error": "",
+      "pred_cost": [
+        18.738281250000004,
+        6.271413338355246
+      ],
+      "pred_p_held": [
+        0.0125,
+        0.9937500000000001
+      ],
+      "expected_time_capped": 6.933333333333334,
+      "forecast_mae": [
+        0.1477033102603434,
+        0.5198397660016785
+      ],
+      "prior_mae": [
+        1.4545182128220886,
+        1.7505714292988808
+      ]
+    },
+    {
+      "scene": 247505,
+      "layout": "12",
+      "condition": "vision",
+      "action": "vision",
+      "gate": 49,
+      "held": true,
+      "first_s": 5.825,
+      "planning_error": "",
+      "pred_cost": [
+        15.665831576305692,
+        6.267408081952901
+      ],
+      "pred_p_held": [
+        0.20788630675321512,
+        0.9937500000000001
+      ],
+      "expected_time_capped": 5.825,
+      "forecast_mae": [
+        0.17039522882092936,
+        0.1352390687946017
+      ],
+      "prior_mae": [
+        0.704439296608013,
+        0.5138878648461161
+      ],
+      "wrist_used": 2,
+      "aims": 2
+    },
+    {
+      "scene": 247505,
+      "layout": "12",
+      "condition": "selector",
+      "action": "vision",
+      "gate": 47,
+      "held": true,
+      "first_s": 5.866666666666666,
+      "planning_error": "",
+      "pred_cost": [
+        15.360575715684895,
+        6.273788857995448
+      ],
+      "pred_p_held": [
+        0.23065105711400044,
+        0.9937500000000001
+      ],
+      "expected_time_capped": 5.866666666666666,
+      "forecast_mae": [
+        0.19869912646398846,
+        0.1826577342240081
+      ],
+      "prior_mae": [
+        0.2497264066714708,
+        0.6082087350471087
+      ],
+      "wrist_used": 2,
+      "aims": 2
+    },
+    {
+      "scene": 247505,
+      "layout": "21",
+      "condition": "live",
+      "action": "live",
+      "gate": 49,
+      "held": false,
+      "first_s": null,
+      "planning_error": "",
+      "pred_cost": [
+        15.401624122267432,
+        6.275354151291921
+      ],
+      "pred_p_held": [
+        0.22799992213558032,
+        0.99375
+      ],
+      "expected_time_capped": 6.933333333333334,
+      "forecast_mae": [
+        0.41400320071813557,
+        0.3855846904903845
+      ],
+      "prior_mae": [
+        0.24920552058522374,
+        0.7924214681426095
+      ]
+    },
+    {
+      "scene": 247505,
+      "layout": "21",
+      "condition": "vision",
+      "action": "vision",
+      "gate": 48,
+      "held": true,
+      "first_s": 5.833333333333333,
+      "planning_error": "",
+      "pred_cost": [
+        14.91209344537253,
+        6.27481528913466
+      ],
+      "pred_p_held": [
+        0.25961654281770535,
+        0.9937500000000001
+      ],
+      "expected_time_capped": 5.833333333333333,
+      "forecast_mae": [
+        0.14345096180316472,
+        0.4598437928848336
+      ],
+      "prior_mae": [
+        0.5342420597027071,
+        0.6306544253778975
+      ],
+      "wrist_used": 2,
+      "aims": 2
+    },
+    {
+      "scene": 247505,
+      "layout": "21",
+      "condition": "selector",
+      "action": "vision",
+      "gate": 48,
+      "held": true,
+      "first_s": 5.841666666666667,
+      "planning_error": "",
+      "pred_cost": [
+        12.086729867677997,
+        6.272692891749855
+      ],
+      "pred_p_held": [
+        0.43877623390677045,
+        0.9937500000000001
+      ],
+      "expected_time_capped": 5.841666666666667,
+      "forecast_mae": [
+        0.09345774996102238,
+        0.4697448219604805
+      ],
+      "prior_mae": [
+        0.536703000944513,
+        0.6860444284410617
+      ],
+      "wrist_used": 2,
+      "aims": 2
+    },
+    {
+      "scene": 247513,
+      "layout": "12",
+      "condition": "live",
+      "action": "live",
+      "gate": 49,
+      "held": false,
+      "first_s": null,
+      "planning_error": "",
+      "pred_cost": [
+        15.532100778907061,
+        6.264197322511554
+      ],
+      "pred_p_held": [
+        0.21639064999001215,
+        0.9937499999999999
+      ],
+      "expected_time_capped": 6.933333333333334,
+      "forecast_mae": [
+        0.4944697346463069,
+        0.9957518607044591
+      ],
+      "prior_mae": [
+        0.5985459830260665,
+        0.7963221482366679
+      ]
+    },
+    {
+      "scene": 247513,
+      "layout": "12",
+      "condition": "vision",
+      "action": "vision",
+      "gate": 49,
+      "held": true,
+      "first_s": 5.85,
+      "planning_error": "",
+      "pred_cost": [
+        18.738281249999996,
+        6.267645984281643
+      ],
+      "pred_p_held": [
+        0.0125,
+        0.99375
+      ],
+      "expected_time_capped": 5.85,
+      "forecast_mae": [
+        0.13499902352944565,
+        0.10191195942329673
+      ],
+      "prior_mae": [
+        0.33203189916796716,
+        0.5139368685704164
+      ],
+      "wrist_used": 2,
+      "aims": 2
+    },
+    {
+      "scene": 247513,
+      "layout": "12",
+      "condition": "selector",
+      "action": "vision",
+      "gate": 48,
+      "held": true,
+      "first_s": 5.775,
+      "planning_error": "",
+      "pred_cost": [
+        18.73828125,
+        6.275142081468196
+      ],
+      "pred_p_held": [
+        0.0125,
+        0.9937500000000001
+      ],
+      "expected_time_capped": 5.775,
+      "forecast_mae": [
+        0.8078876231988079,
+        0.8538322713559526
+      ],
+      "prior_mae": [
+        1.1365402621373089,
+        1.0549993247521778
+      ],
+      "wrist_used": 2,
+      "aims": 2
+    },
+    {
+      "scene": 247513,
+      "layout": "21",
+      "condition": "live",
+      "action": "live",
+      "gate": 47,
+      "held": false,
+      "first_s": null,
+      "planning_error": "",
+      "pred_cost": [
+        12.102835529781053,
+        6.279949888680713
+      ],
+      "pred_p_held": [
+        0.4378087521086712,
+        0.99375
+      ],
+      "expected_time_capped": 6.933333333333334,
+      "forecast_mae": [
+        1.845520078766131,
+        0.9696746832312227
+      ],
+      "prior_mae": [
+        0.8701410808788915,
+        0.7270756322347863
+      ]
+    },
+    {
+      "scene": 247513,
+      "layout": "21",
+      "condition": "vision",
+      "action": "vision",
+      "gate": 49,
+      "held": true,
+      "first_s": 5.841666666666667,
+      "planning_error": "",
+      "pred_cost": [
+        11.928425018137723,
+        6.263509379919697
+      ],
+      "pred_p_held": [
+        0.4487399818802418,
+        0.99375
+      ],
+      "expected_time_capped": 5.841666666666667,
+      "forecast_mae": [
+        0.14834145776301536,
+        0.18414870722311225
+      ],
+      "prior_mae": [
+        0.47746455798969145,
+        0.5163716169353646
+      ],
+      "wrist_used": 2,
+      "aims": 2
+    },
+    {
+      "scene": 247513,
+      "layout": "21",
+      "condition": "selector",
+      "action": "vision",
+      "gate": 48,
+      "held": true,
+      "first_s": 5.841666666666667,
+      "planning_error": "",
+      "pred_cost": [
+        12.104460501585221,
+        6.272641763806404
+      ],
+      "pred_p_held": [
+        0.4379178098174963,
+        0.9937500000000004
+      ],
+      "expected_time_capped": 5.841666666666667,
+      "forecast_mae": [
+        0.22745093705220093,
+        0.12096260165469916
+      ],
+      "prior_mae": [
+        0.6457939800117278,
+        0.5390282747255346
+      ],
+      "wrist_used": 2,
+      "aims": 2
+    },
+    {
+      "scene": 247526,
+      "layout": "12",
+      "condition": "live",
+      "action": "live",
+      "gate": 48,
+      "held": false,
+      "first_s": null,
+      "planning_error": "",
+      "pred_cost": [
+        11.738421208620725,
+        6.282672224638352
+      ],
+      "pred_p_held": [
+        0.4611534293056446,
+        0.9937499999999999
+      ],
+      "expected_time_capped": 6.933333333333334,
+      "forecast_mae": [
+        0.271135188576792,
+        0.9728801102478379
+      ],
+      "prior_mae": [
+        1.215574890059743,
+        1.4457694161854728
+      ]
+    },
+    {
+      "scene": 247526,
+      "layout": "12",
+      "condition": "vision",
+      "action": "vision",
+      "gate": 49,
+      "held": true,
+      "first_s": 5.85,
+      "planning_error": "",
+      "pred_cost": [
+        18.738281249999996,
+        6.275253625208854
+      ],
+      "pred_p_held": [
+        0.0125,
+        0.99375
+      ],
+      "expected_time_capped": 5.85,
+      "forecast_mae": [
+        0.06619700294531508,
+        0.17453413025131498
+      ],
+      "prior_mae": [
+        0.4197687230803485,
+        0.48779851743219893
+      ],
+      "wrist_used": 2,
+      "aims": 2
+    },
+    {
+      "scene": 247526,
+      "layout": "12",
+      "condition": "selector",
+      "action": "vision",
+      "gate": 48,
+      "held": true,
+      "first_s": 5.891666666666667,
+      "planning_error": "",
+      "pred_cost": [
+        15.43465596954534,
+        6.2749804612210625
+      ],
+      "pred_p_held": [
+        0.22586654125649047,
+        0.9937500000000001
+      ],
+      "expected_time_capped": 5.891666666666667,
+      "forecast_mae": [
+        0.39846876656754926,
+        0.3726477755378824
+      ],
+      "prior_mae": [
+        0.24759543290142963,
+        0.8413000583026979
+      ],
+      "wrist_used": 2,
+      "aims": 2
+    },
+    {
+      "scene": 247526,
+      "layout": "21",
+      "condition": "live",
+      "action": "live",
+      "gate": 49,
+      "held": true,
+      "first_s": 3.1666666666666665,
+      "planning_error": "",
+      "pred_cost": [
+        11.338600509101484,
+        6.26174236140197
+      ],
+      "pred_p_held": [
+        0.48637347388589824,
+        0.99375
+      ],
+      "expected_time_capped": 3.1666666666666665,
+      "forecast_mae": [
+        1.4021102668660723,
+        1.245001102313196
+      ],
+      "prior_mae": [
+        2.3993815968191052,
+        2.185119094830456
+      ]
+    },
+    {
+      "scene": 247526,
+      "layout": "21",
+      "condition": "vision",
+      "action": "vision",
+      "gate": 48,
+      "held": true,
+      "first_s": 5.725,
+      "planning_error": "",
+      "pred_cost": [
+        15.209402328079491,
+        6.26751911479529
+      ],
+      "pred_p_held": [
+        0.23691201411259208,
+        0.9937499999999999
+      ],
+      "expected_time_capped": 5.725,
+      "forecast_mae": [
+        2.2015533862391377,
+        1.4627290915932938
+      ],
+      "prior_mae": [
+        2.694574106808751,
+        1.8071967248108964
+      ],
+      "wrist_used": 2,
+      "aims": 2
+    },
+    {
+      "scene": 247526,
+      "layout": "21",
+      "condition": "selector",
+      "action": "vision",
+      "gate": 48,
+      "held": true,
+      "first_s": 5.841666666666667,
+      "planning_error": "",
+      "pred_cost": [
+        11.783667650351669,
+        6.267240163425184
+      ],
+      "pred_p_held": [
+        0.4584639778264559,
+        0.9937499999999999
+      ],
+      "expected_time_capped": 5.841666666666667,
+      "forecast_mae": [
+        0.15135454338413898,
+        0.23637076571291754
+      ],
+      "prior_mae": [
+        0.33448478574680873,
+        0.5790256173387168
+      ],
+      "wrist_used": 2,
+      "aims": 2
+    },
+    {
+      "scene": 247531,
+      "layout": "12",
+      "condition": "live",
+      "action": "live",
+      "gate": 48,
+      "held": false,
+      "first_s": null,
+      "planning_error": "",
+      "pred_cost": [
+        14.749172080678182,
+        6.276288649170508
+      ],
+      "pred_p_held": [
+        0.2701389129809573,
+        0.9937499999999999
+      ],
+      "expected_time_capped": 6.933333333333334,
+      "forecast_mae": [
+        0.8863172191683918,
+        0.7661964659010312
+      ],
+      "prior_mae": [
+        1.5664946932037915,
+        1.0993774058702028
+      ]
+    },
+    {
+      "scene": 247531,
+      "layout": "12",
+      "condition": "vision",
+      "action": "vision",
+      "gate": 48,
+      "held": true,
+      "first_s": 5.766666666666667,
+      "planning_error": "",
+      "pred_cost": [
+        18.73828125,
+        6.2753350203566285
+      ],
+      "pred_p_held": [
+        0.0125,
+        0.99375
+      ],
+      "expected_time_capped": 5.766666666666667,
+      "forecast_mae": [
+        1.4216570644739477,
+        1.4993557839140759
+      ],
+      "prior_mae": [
+        1.801599188221337,
+        1.5762171656374888
+      ],
+      "wrist_used": 2,
+      "aims": 2
+    },
+    {
+      "scene": 247531,
+      "layout": "12",
+      "condition": "selector",
+      "action": "vision",
+      "gate": 47,
+      "held": true,
+      "first_s": 5.758333333333334,
+      "planning_error": "",
+      "pred_cost": [
+        15.656639539692723,
+        9.570991107380904
+      ],
+      "pred_p_held": [
+        0.2084708559813852,
+        0.7411620874129374
+      ],
+      "expected_time_capped": 5.758333333333334,
+      "forecast_mae": [
+        3.257238305713673,
+        2.747525356561527
+      ],
+      "prior_mae": [
+        1.6630954526387094,
+        1.9747262743151843
+      ],
+      "wrist_used": 2,
+      "aims": 2
+    },
+    {
+      "scene": 247531,
+      "layout": "21",
+      "condition": "live",
+      "action": "live",
+      "gate": 48,
+      "held": false,
+      "first_s": null,
+      "planning_error": "",
+      "pred_cost": [
+        15.78386071757687,
+        6.273289615139772
+      ],
+      "pred_p_held": [
+        0.20038047900942027,
+        0.9937500000000001
+      ],
+      "expected_time_capped": 6.933333333333334,
+      "forecast_mae": [
+        0.8557503539758197,
+        0.6508187977708121
+      ],
+      "prior_mae": [
+        1.4533587286801894,
+        1.258094602469062
+      ]
+    },
+    {
+      "scene": 247531,
+      "layout": "21",
+      "condition": "vision",
+      "action": "vision",
+      "gate": 48,
+      "held": true,
+      "first_s": 5.825,
+      "planning_error": "",
+      "pred_cost": [
+        14.997938831626985,
+        6.282230399441738
+      ],
+      "pred_p_held": [
+        0.2540721691091289,
+        0.9937500000000001
+      ],
+      "expected_time_capped": 5.825,
+      "forecast_mae": [
+        0.43369549860370704,
+        0.3112137565544645
+      ],
+      "prior_mae": [
+        0.6983385025165656,
+        0.43764342632819636
+      ],
+      "wrist_used": 2,
+      "aims": 2
+    },
+    {
+      "scene": 247531,
+      "layout": "21",
+      "condition": "selector",
+      "action": "vision",
+      "gate": 48,
+      "held": true,
+      "first_s": 5.775,
+      "planning_error": "",
+      "pred_cost": [
+        18.73828125,
+        6.273284910398874
+      ],
+      "pred_p_held": [
+        0.0125,
+        0.9937500000000001
+      ],
+      "expected_time_capped": 5.775,
+      "forecast_mae": [
+        0.8056126237470663,
+        1.0756014655694326
+      ],
+      "prior_mae": [
+        1.1721395219873152,
+        1.1896045447051093
+      ],
+      "wrist_used": 2,
+      "aims": 2
+    }
+  ]
+}

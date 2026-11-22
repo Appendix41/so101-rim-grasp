@@ -1,0 +1,4281 @@
+{
+  "protocol_sha256": "4c8b90a17acf548cfbea1a5cc6f8aa866c965b8f66b14a2cdca071526cc3dda9",
+  "cases": [
+    {
+      "scene": 253116,
+      "layout": "12",
+      "gate": 47,
+      "held": true,
+      "teacher_available": true,
+      "executions": [
+        {
+          "final_center": "red",
+          "min_margin_mm": -137.2896455130442,
+          "final_margin_mm": -137.28953350921577,
+          "end_xy_local_mm": [
+            81.02690505896312,
+            33.07628992878308
+          ],
+          "inside": false,
+          "open": true,
+          "clear": true,
+          "stable": true,
+          "sustained": true,
+          "complete": false,
+          "branch": 0,
+          "held": true,
+          "failure": "",
+          "requested_xy": [
+            -0.048385574221563116,
+            -0.21034663002320841
+          ],
+          "kind": "red_edge",
+          "forecast": {
+            "final_xy": [
+              -0.04736278837597819,
+              -0.21166674642903655
+            ],
+            "z_mm": -0.0001448972512995841,
+            "tilt_deg": 0.0002361634285691785,
+            "margin_mm": -130.67989437947637,
+            "strict": 0.005897435897435897,
+            "black": 0.007948717948717949,
+            "red": 0.9917948717948717,
+            "neither": 0.0002564102564102564
+          }
+        },
+        {
+          "final_center": "black",
+          "min_margin_mm": -8.982804425077088,
+          "final_margin_mm": -8.982744656792205,
+          "end_xy_local_mm": [
+            -78.59256703125203,
+            32.24482374066934
+          ],
+          "inside": false,
+          "open": true,
+          "clear": true,
+          "stable": true,
+          "sustained": true,
+          "complete": false,
+          "branch": 1,
+          "held": true,
+          "failure": "",
+          "requested_xy": [
+            -0.21090109753473169,
+            -0.2081350709264865
+          ],
+          "kind": "black_edge",
+          "forecast": {
+            "final_xy": [
+              -0.20790405705052017,
+              -0.21015209150023018
+            ],
+            "z_mm": -4.018697451338228e-05,
+            "tilt_deg": 0.00011662505089148347,
+            "margin_mm": -8.878927672788041,
+            "strict": 0.19848390083158937,
+            "black": 0.9979487179487176,
+            "red": 0.0017948717948717949,
+            "neither": 0.0002564102564102564
+          }
+        },
+        {
+          "final_center": "black",
+          "min_margin_mm": 20.61394287877223,
+          "final_margin_mm": 20.614017383442526,
+          "end_xy_local_mm": [
+            -76.87664583369518,
+            -2.7638005996961583
+          ],
+          "inside": true,
+          "open": true,
+          "clear": true,
+          "stable": true,
+          "sustained": true,
+          "complete": true,
+          "branch": 2,
+          "held": true,
+          "failure": "",
+          "requested_xy": [
+            -0.21110538698113374,
+            -0.24513450694681105
+          ],
+          "kind": "black_center",
+          "forecast": {
+            "final_xy": [
+              -0.20700094785616027,
+              -0.247941345705769
+            ],
+            "z_mm": -9.194789722567953e-05,
+            "tilt_deg": 0.00016359743364889972,
+            "margin_mm": 18.91620550190368,
+            "strict": 0.9958974358974358,
+            "black": 0.9979487179487181,
+            "red": 0.0017948717948717949,
+            "neither": 0.0002564102564102564
+          }
+        },
+        {
+          "final_center": "red",
+          "min_margin_mm": -137.3677867553829,
+          "final_margin_mm": -137.36774958532206,
+          "end_xy_local_mm": [
+            81.1051211350694,
+            -2.562228313724756
+          ],
+          "inside": false,
+          "open": true,
+          "clear": true,
+          "stable": true,
+          "sustained": true,
+          "complete": false,
+          "branch": 3,
+          "held": true,
+          "failure": "",
+          "requested_xy": [
+            -0.048589863667965166,
+            -0.24734606604353296
+          ],
+          "kind": "red_center",
+          "forecast": {
+            "final_xy": [
+              -0.04863319958392602,
+              -0.24829182046391443
+            ],
+            "z_mm": -0.00012645717355790545,
+            "tilt_deg": 0.00018974436627008568,
+            "margin_mm": -143.91310067479026,
+            "strict": 0.005897435897435897,
+            "black": 0.007948717948717949,
+            "red": 0.9917948717948718,
+            "neither": 0.0002564102564102564
+          }
+        },
+        {
+          "final_center": "black",
+          "min_margin_mm": 4.413383597026983,
+          "final_margin_mm": 4.413413892541046,
+          "end_xy_local_mm": [
+            -90.76505388249235,
+            18.84866519133608
+          ],
+          "inside": true,
+          "open": true,
+          "clear": true,
+          "stable": true,
+          "sustained": true,
+          "complete": true,
+          "branch": 4,
+          "held": true,
+          "failure": "",
+          "requested_xy": [
+            -0.22471215690749397,
+            -0.2220111864275669
+          ],
+          "kind": "other",
+          "forecast": {
+            "final_xy": [
+              -0.22113021367358862,
+              -0.22554062899228536
+            ],
+            "z_mm": -7.854632315257595e-05,
+            "tilt_deg": 9.687990644790856e-05,
+            "margin_mm": 6.7303194839235765,
+            "strict": 0.995897435897436,
+            "black": 0.997948717948718,
+            "red": 0.0017948717948717949,
+            "neither": 0.0002564102564102564
+          }
+        },
+        {
+          "final_center": "black",
+          "min_margin_mm": 22.33600767048237,
+          "final_margin_mm": 22.336067274218607,
+          "end_xy_local_mm": [
+            -78.59869572447126,
+            -2.553155650147796
+          ],
+          "inside": true,
+          "open": true,
+          "clear": true,
+          "stable": true,
+          "sustained": true,
+          "complete": true,
+          "branch": 5,
+          "held": true,
+          "failure": "",
+          "requested_xy": [
+            -0.21299558877944946,
+            -0.2444416880607605
+          ],
+          "kind": "other",
+          "forecast": {
+            "final_xy": [
+              -0.20889076221828648,
+              -0.24724933206026392
+            ],
+            "z_mm": -9.187562007512453e-05,
+            "tilt_deg": 0.0001635096601633828,
+            "margin_mm": 18.917424302858247,
+            "strict": 0.995897435897436,
+            "black": 0.997948717948718,
+            "red": 0.0017948717948717949,
+            "neither": 0.0002564102564102564
+          }
+        }
+      ],
+      "trials": [
+        {
+          "kind": "red_edge",
+          "rule_reason": "safe_menu",
+          "wm_selected": "region1",
+          "raw": {
+            "complete": false,
+            "held": true,
+            "final_center": "red",
+            "min_margin_mm": -137.2896455130442,
+            "requested_xy": [
+              -0.048385574221563116,
+              -0.21034663002320841
+            ],
+            "inside": false,
+            "failure": "",
+            "kind": "red_edge",
+            "branch": 0
+          },
+          "wm": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 20.61394287877223,
+            "requested_xy": [
+              -0.21110538698113374,
+              -0.24513450694681105
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 2
+          },
+          "rule": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 20.61394287877223,
+            "requested_xy": [
+              -0.21110538698113374,
+              -0.24513450694681105
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 2
+          }
+        },
+        {
+          "kind": "black_edge",
+          "rule_reason": "safe_menu",
+          "wm_selected": "region1",
+          "raw": {
+            "complete": false,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": -8.982804425077088,
+            "requested_xy": [
+              -0.21090109753473169,
+              -0.2081350709264865
+            ],
+            "inside": false,
+            "failure": "",
+            "kind": "black_edge",
+            "branch": 1
+          },
+          "wm": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 20.61394287877223,
+            "requested_xy": [
+              -0.21110538698113374,
+              -0.24513450694681105
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 2
+          },
+          "rule": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 20.61394287877223,
+            "requested_xy": [
+              -0.21110538698113374,
+              -0.24513450694681105
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 2
+          }
+        },
+        {
+          "kind": "black_center",
+          "rule_reason": "inside_keep",
+          "wm_selected": "student",
+          "raw": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 20.61394287877223,
+            "requested_xy": [
+              -0.21110538698113374,
+              -0.24513450694681105
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 2
+          },
+          "wm": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 20.61394287877223,
+            "requested_xy": [
+              -0.21110538698113374,
+              -0.24513450694681105
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 2
+          },
+          "rule": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 20.61394287877223,
+            "requested_xy": [
+              -0.21110538698113374,
+              -0.24513450694681105
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 2
+          }
+        },
+        {
+          "kind": "red_center",
+          "rule_reason": "safe_menu",
+          "wm_selected": "region2",
+          "raw": {
+            "complete": false,
+            "held": true,
+            "final_center": "red",
+            "min_margin_mm": -137.3677867553829,
+            "requested_xy": [
+              -0.048589863667965166,
+              -0.24734606604353296
+            ],
+            "inside": false,
+            "failure": "",
+            "kind": "red_center",
+            "branch": 3
+          },
+          "wm": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 20.61394287877223,
+            "requested_xy": [
+              -0.21110538698113374,
+              -0.24513450694681105
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 2
+          },
+          "rule": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 20.61394287877223,
+            "requested_xy": [
+              -0.21110538698113374,
+              -0.24513450694681105
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 2
+          }
+        },
+        {
+          "kind": "natural",
+          "rule_reason": "expert_center",
+          "wm_selected": "student",
+          "raw": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 4.413383597026983,
+            "requested_xy": [
+              -0.22471215690749397,
+              -0.2220111864275669
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "other",
+            "branch": 4
+          },
+          "wm": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 4.413383597026983,
+            "requested_xy": [
+              -0.22471215690749397,
+              -0.2220111864275669
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "other",
+            "branch": 4
+          },
+          "rule": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 22.33600767048237,
+            "requested_xy": [
+              -0.21299558877944946,
+              -0.2444416880607605
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "other",
+            "branch": 5
+          }
+        }
+      ],
+      "grasp_action": "vision",
+      "colors_verified": true,
+      "natural_region_count": 2
+    },
+    {
+      "scene": 253116,
+      "layout": "21",
+      "gate": 48,
+      "held": true,
+      "teacher_available": true,
+      "executions": [
+        {
+          "final_center": "black",
+          "min_margin_mm": -10.405342204454985,
+          "final_margin_mm": -10.40529715198693,
+          "end_xy_local_mm": [
+            81.37475850985892,
+            32.35315372194672
+          ],
+          "inside": false,
+          "open": true,
+          "clear": true,
+          "stable": true,
+          "sustained": true,
+          "complete": false,
+          "branch": 0,
+          "held": true,
+          "failure": "",
+          "requested_xy": [
+            -0.048385574221563116,
+            -0.21034663002320841
+          ],
+          "kind": "black_edge",
+          "forecast": {
+            "final_xy": [
+              -0.0482562618742503,
+              -0.21099968350667583
+            ],
+            "z_mm": -0.00010331501217207594,
+            "tilt_deg": 0.00016262078093923248,
+            "margin_mm": 2.6085804414051936,
+            "strict": 0.9958974358974358,
+            "black": 0.997948717948718,
+            "red": 0.0017948717948717949,
+            "neither": 0.0002564102564102564
+          }
+        },
+        {
+          "final_center": "red",
+          "min_margin_mm": -134.76995250837962,
+          "final_margin_mm": -134.7699371137996,
+          "end_xy_local_mm": [
+            -78.50730866354697,
+            30.737512411073894
+          ],
+          "inside": false,
+          "open": true,
+          "clear": true,
+          "stable": true,
+          "sustained": true,
+          "complete": false,
+          "branch": 1,
+          "held": true,
+          "failure": "",
+          "requested_xy": [
+            -0.21090109753473169,
+            -0.2081350709264865
+          ],
+          "kind": "red_edge",
+          "forecast": {
+            "final_xy": [
+              -0.20938337921898106,
+              -0.209428369556777
+            ],
+            "z_mm": -0.0001507687758336866,
+            "tilt_deg": 0.00023062335464581223,
+            "margin_mm": -122.92999862458902,
+            "strict": 0.005897435897435897,
+            "black": 0.007948717948717949,
+            "red": 0.9917948717948717,
+            "neither": 0.0002564102564102564
+          }
+        },
+        {
+          "final_center": "red",
+          "min_margin_mm": -132.7666701119053,
+          "final_margin_mm": -132.76665512869693,
+          "end_xy_local_mm": [
+            -76.50402667844428,
+            -4.897678413245076
+          ],
+          "inside": false,
+          "open": true,
+          "clear": true,
+          "stable": true,
+          "sustained": true,
+          "complete": false,
+          "branch": 2,
+          "held": true,
+          "failure": "",
+          "requested_xy": [
+            -0.21110538698113374,
+            -0.24513450694681105
+          ],
+          "kind": "red_center",
+          "forecast": {
+            "final_xy": [
+              -0.2111505844554926,
+              -0.24608742105395312
+            ],
+            "z_mm": -0.0001262242937330777,
+            "tilt_deg": 0.0001881729537514071,
+            "margin_mm": -143.7990274678517,
+            "strict": 0.005897435897435897,
+            "black": 0.007948717948717949,
+            "red": 0.9917948717948719,
+            "neither": 0.0002564102564102564
+          }
+        },
+        {
+          "final_center": "black",
+          "min_margin_mm": 23.586990484021833,
+          "final_margin_mm": 23.587005528935958,
+          "end_xy_local_mm": [
+            81.51762637752752,
+            -4.465137901104241
+          ],
+          "inside": true,
+          "open": true,
+          "clear": true,
+          "stable": true,
+          "sustained": true,
+          "complete": true,
+          "branch": 3,
+          "held": true,
+          "failure": "",
+          "requested_xy": [
+            -0.048589863667965166,
+            -0.24734606604353296
+          ],
+          "kind": "black_center",
+          "forecast": {
+            "final_xy": [
+              -0.0488053749343889,
+              -0.2478212937222524
+            ],
+            "z_mm": -3.041754670724846e-05,
+            "tilt_deg": 0.000149785029550419,
+            "margin_mm": 22.561035828827137,
+            "strict": 0.9958974358974358,
+            "black": 0.9979487179487179,
+            "red": 0.0017948717948717949,
+            "neither": 0.0002564102564102564
+          }
+        },
+        {
+          "final_center": "black",
+          "min_margin_mm": 9.924561294718314,
+          "final_margin_mm": 9.924591137723594,
+          "end_xy_local_mm": [
+            66.56650156047449,
+            12.023265432236194
+          ],
+          "inside": true,
+          "open": true,
+          "clear": true,
+          "stable": true,
+          "sustained": true,
+          "complete": true,
+          "branch": 4,
+          "held": true,
+          "failure": "",
+          "requested_xy": [
+            -0.06379356125326927,
+            -0.22983040660966086
+          ],
+          "kind": "other",
+          "forecast": {
+            "final_xy": [
+              -0.0636571034721645,
+              -0.23046737100682527
+            ],
+            "z_mm": -0.00010365626184870504,
+            "tilt_deg": 0.00016327651335279147,
+            "margin_mm": 2.6180112176568393,
+            "strict": 0.9958974358974358,
+            "black": 0.997948717948718,
+            "red": 0.0017948717948717949,
+            "neither": 0.0002564102564102564
+          }
+        }
+      ],
+      "trials": [
+        {
+          "kind": "black_edge",
+          "rule_reason": "safe_menu",
+          "wm_selected": "student",
+          "raw": {
+            "complete": false,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": -10.405342204454985,
+            "requested_xy": [
+              -0.048385574221563116,
+              -0.21034663002320841
+            ],
+            "inside": false,
+            "failure": "",
+            "kind": "black_edge",
+            "branch": 0
+          },
+          "wm": {
+            "complete": false,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": -10.405342204454985,
+            "requested_xy": [
+              -0.048385574221563116,
+              -0.21034663002320841
+            ],
+            "inside": false,
+            "failure": "",
+            "kind": "black_edge",
+            "branch": 0
+          },
+          "rule": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 23.586990484021833,
+            "requested_xy": [
+              -0.048589863667965166,
+              -0.24734606604353296
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 3
+          }
+        },
+        {
+          "kind": "red_edge",
+          "rule_reason": "safe_menu",
+          "wm_selected": "region2",
+          "raw": {
+            "complete": false,
+            "held": true,
+            "final_center": "red",
+            "min_margin_mm": -134.76995250837962,
+            "requested_xy": [
+              -0.21090109753473169,
+              -0.2081350709264865
+            ],
+            "inside": false,
+            "failure": "",
+            "kind": "red_edge",
+            "branch": 1
+          },
+          "wm": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 23.586990484021833,
+            "requested_xy": [
+              -0.048589863667965166,
+              -0.24734606604353296
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 3
+          },
+          "rule": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 23.586990484021833,
+            "requested_xy": [
+              -0.048589863667965166,
+              -0.24734606604353296
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 3
+          }
+        },
+        {
+          "kind": "red_center",
+          "rule_reason": "safe_menu",
+          "wm_selected": "region2",
+          "raw": {
+            "complete": false,
+            "held": true,
+            "final_center": "red",
+            "min_margin_mm": -132.7666701119053,
+            "requested_xy": [
+              -0.21110538698113374,
+              -0.24513450694681105
+            ],
+            "inside": false,
+            "failure": "",
+            "kind": "red_center",
+            "branch": 2
+          },
+          "wm": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 23.586990484021833,
+            "requested_xy": [
+              -0.048589863667965166,
+              -0.24734606604353296
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 3
+          },
+          "rule": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 23.586990484021833,
+            "requested_xy": [
+              -0.048589863667965166,
+              -0.24734606604353296
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 3
+          }
+        },
+        {
+          "kind": "black_center",
+          "rule_reason": "inside_keep",
+          "wm_selected": "student",
+          "raw": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 23.586990484021833,
+            "requested_xy": [
+              -0.048589863667965166,
+              -0.24734606604353296
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 3
+          },
+          "wm": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 23.586990484021833,
+            "requested_xy": [
+              -0.048589863667965166,
+              -0.24734606604353296
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 3
+          },
+          "rule": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 23.586990484021833,
+            "requested_xy": [
+              -0.048589863667965166,
+              -0.24734606604353296
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 3
+          }
+        },
+        {
+          "kind": "natural",
+          "rule_reason": "inside_keep",
+          "wm_selected": "student",
+          "raw": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 9.924561294718314,
+            "requested_xy": [
+              -0.06379356125326927,
+              -0.22983040660966086
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "other",
+            "branch": 4
+          },
+          "wm": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 9.924561294718314,
+            "requested_xy": [
+              -0.06379356125326927,
+              -0.22983040660966086
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "other",
+            "branch": 4
+          },
+          "rule": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 9.924561294718314,
+            "requested_xy": [
+              -0.06379356125326927,
+              -0.22983040660966086
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "other",
+            "branch": 4
+          }
+        }
+      ],
+      "grasp_action": "vision",
+      "colors_verified": true,
+      "natural_region_count": 2
+    },
+    {
+      "scene": 253118,
+      "layout": "12",
+      "gate": 48,
+      "held": true,
+      "teacher_available": true,
+      "executions": [
+        {
+          "final_center": "red",
+          "min_margin_mm": -138.63960361187424,
+          "final_margin_mm": -138.63957728422264,
+          "end_xy_local_mm": [
+            81.68733587930998,
+            -3.4651390906025354
+          ],
+          "inside": false,
+          "open": true,
+          "clear": true,
+          "stable": true,
+          "sustained": true,
+          "complete": false,
+          "branch": 0,
+          "held": true,
+          "failure": "",
+          "requested_xy": [
+            -0.04615261611597335,
+            -0.22305454624040993
+          ],
+          "kind": "red_center",
+          "forecast": {
+            "final_xy": [
+              -0.04619821124543114,
+              -0.22402741668836487
+            ],
+            "z_mm": -0.00012756090455043567,
+            "tilt_deg": 0.00019202740800916936,
+            "margin_mm": -144.1430611349684,
+            "strict": 0.005897435897435897,
+            "black": 0.007948717948717949,
+            "red": 0.9917948717948717,
+            "neither": 0.0002564102564102564
+          }
+        },
+        {
+          "final_center": "black",
+          "min_margin_mm": 21.402079848769848,
+          "final_margin_mm": 21.402109901168714,
+          "end_xy_local_mm": [
+            -78.84067944295401,
+            -1.9920715973596963
+          ],
+          "inside": true,
+          "open": true,
+          "clear": true,
+          "stable": true,
+          "sustained": true,
+          "complete": true,
+          "branch": 1,
+          "held": true,
+          "failure": "",
+          "requested_xy": [
+            -0.2100852347236417,
+            -0.22280624710102628
+          ],
+          "kind": "black_center",
+          "forecast": {
+            "final_xy": [
+              -0.20598408432481488,
+              -0.22561903088932395
+            ],
+            "z_mm": -9.085387984743763e-05,
+            "tilt_deg": 0.00016211985599079255,
+            "margin_mm": 18.89004289016096,
+            "strict": 0.9958974358974358,
+            "black": 0.9979487179487179,
+            "red": 0.0017948717948717949,
+            "neither": 0.0002564102564102564
+          }
+        },
+        {
+          "final_center": "black",
+          "min_margin_mm": -13.771672938283624,
+          "final_margin_mm": -13.77161283348588,
+          "end_xy_local_mm": [
+            -75.40512384859754,
+            -37.16579433201429
+          ],
+          "inside": false,
+          "open": true,
+          "clear": true,
+          "stable": true,
+          "sustained": true,
+          "complete": false,
+          "branch": 2,
+          "held": true,
+          "failure": "",
+          "requested_xy": [
+            -0.20945350088607848,
+            -0.259800853631688
+          ],
+          "kind": "black_edge",
+          "forecast": {
+            "final_xy": [
+              -0.20641955593895628,
+              -0.2623321164419271
+            ],
+            "z_mm": -8.467931462462175e-05,
+            "tilt_deg": 0.00012848922109023666,
+            "margin_mm": -8.91549458988145,
+            "strict": 0.19845787614140695,
+            "black": 0.9979487179487178,
+            "red": 0.0017948717948717949,
+            "neither": 0.0002564102564102564
+          }
+        },
+        {
+          "final_center": "red",
+          "min_margin_mm": -139.02719469251403,
+          "final_margin_mm": -139.02715372029408,
+          "end_xy_local_mm": [
+            82.07491231538144,
+            -39.87715891520085
+          ],
+          "inside": false,
+          "open": true,
+          "clear": true,
+          "stable": true,
+          "sustained": true,
+          "complete": false,
+          "branch": 3,
+          "held": true,
+          "failure": "",
+          "requested_xy": [
+            -0.0455208822784101,
+            -0.26004915277107166
+          ],
+          "kind": "red_edge",
+          "forecast": {
+            "final_xy": [
+              -0.044525333293673815,
+              -0.26122307349345447
+            ],
+            "z_mm": -0.00014752776998753798,
+            "tilt_deg": 0.00021877116197916994,
+            "margin_mm": -130.53513744302757,
+            "strict": 0.005897435897435897,
+            "black": 0.007948717948717949,
+            "red": 0.9917948717948717,
+            "neither": 0.0002564102564102564
+          }
+        },
+        {
+          "final_center": "black",
+          "min_margin_mm": 13.91888275837394,
+          "final_margin_mm": 13.918912810772815,
+          "end_xy_local_mm": [
+            -93.03332859413983,
+            -3.4885888334975004
+          ],
+          "inside": true,
+          "open": true,
+          "clear": true,
+          "stable": true,
+          "sustained": true,
+          "complete": true,
+          "branch": 4,
+          "held": true,
+          "failure": "",
+          "requested_xy": [
+            -0.22548651210677917,
+            -0.22516933317621113
+          ],
+          "kind": "other",
+          "forecast": {
+            "final_xy": [
+              -0.2212315908932096,
+              -0.22870495609562327
+            ],
+            "z_mm": -0.0001164210355893333,
+            "tilt_deg": 0.0002010612339668224,
+            "margin_mm": 19.041594103564055,
+            "strict": 0.9958974358974358,
+            "black": 0.9979487179487179,
+            "red": 0.0017948717948717949,
+            "neither": 0.0002564102564102564
+          }
+        }
+      ],
+      "trials": [
+        {
+          "kind": "red_center",
+          "rule_reason": "safe_menu",
+          "wm_selected": "region0",
+          "raw": {
+            "complete": false,
+            "held": true,
+            "final_center": "red",
+            "min_margin_mm": -138.63960361187424,
+            "requested_xy": [
+              -0.04615261611597335,
+              -0.22305454624040993
+            ],
+            "inside": false,
+            "failure": "",
+            "kind": "red_center",
+            "branch": 0
+          },
+          "wm": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 21.402079848769848,
+            "requested_xy": [
+              -0.2100852347236417,
+              -0.22280624710102628
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 1
+          },
+          "rule": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 21.402079848769848,
+            "requested_xy": [
+              -0.2100852347236417,
+              -0.22280624710102628
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 1
+          }
+        },
+        {
+          "kind": "black_center",
+          "rule_reason": "inside_keep",
+          "wm_selected": "student",
+          "raw": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 21.402079848769848,
+            "requested_xy": [
+              -0.2100852347236417,
+              -0.22280624710102628
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 1
+          },
+          "wm": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 21.402079848769848,
+            "requested_xy": [
+              -0.2100852347236417,
+              -0.22280624710102628
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 1
+          },
+          "rule": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 21.402079848769848,
+            "requested_xy": [
+              -0.2100852347236417,
+              -0.22280624710102628
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 1
+          }
+        },
+        {
+          "kind": "black_edge",
+          "rule_reason": "safe_menu",
+          "wm_selected": "region1",
+          "raw": {
+            "complete": false,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": -13.771672938283624,
+            "requested_xy": [
+              -0.20945350088607848,
+              -0.259800853631688
+            ],
+            "inside": false,
+            "failure": "",
+            "kind": "black_edge",
+            "branch": 2
+          },
+          "wm": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 21.402079848769848,
+            "requested_xy": [
+              -0.2100852347236417,
+              -0.22280624710102628
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 1
+          },
+          "rule": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 21.402079848769848,
+            "requested_xy": [
+              -0.2100852347236417,
+              -0.22280624710102628
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 1
+          }
+        },
+        {
+          "kind": "red_edge",
+          "rule_reason": "safe_menu",
+          "wm_selected": "region1",
+          "raw": {
+            "complete": false,
+            "held": true,
+            "final_center": "red",
+            "min_margin_mm": -139.02719469251403,
+            "requested_xy": [
+              -0.0455208822784101,
+              -0.26004915277107166
+            ],
+            "inside": false,
+            "failure": "",
+            "kind": "red_edge",
+            "branch": 3
+          },
+          "wm": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 21.402079848769848,
+            "requested_xy": [
+              -0.2100852347236417,
+              -0.22280624710102628
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 1
+          },
+          "rule": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 21.402079848769848,
+            "requested_xy": [
+              -0.2100852347236417,
+              -0.22280624710102628
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 1
+          }
+        },
+        {
+          "kind": "natural",
+          "rule_reason": "inside_keep",
+          "wm_selected": "student",
+          "raw": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 13.91888275837394,
+            "requested_xy": [
+              -0.22548651210677917,
+              -0.22516933317621113
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "other",
+            "branch": 4
+          },
+          "wm": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 13.91888275837394,
+            "requested_xy": [
+              -0.22548651210677917,
+              -0.22516933317621113
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "other",
+            "branch": 4
+          },
+          "rule": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 13.91888275837394,
+            "requested_xy": [
+              -0.22548651210677917,
+              -0.22516933317621113
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "other",
+            "branch": 4
+          }
+        }
+      ],
+      "grasp_action": "vision",
+      "colors_verified": true,
+      "natural_region_count": 2
+    },
+    {
+      "scene": 253118,
+      "layout": "21",
+      "gate": 47,
+      "held": true,
+      "teacher_available": true,
+      "executions": [
+        {
+          "final_center": "black",
+          "min_margin_mm": 24.682599334499,
+          "final_margin_mm": 24.68262906887193,
+          "end_xy_local_mm": [
+            81.88548179726294,
+            -1.758782462581201
+          ],
+          "inside": true,
+          "open": true,
+          "clear": true,
+          "stable": true,
+          "sustained": true,
+          "complete": true,
+          "branch": 0,
+          "held": true,
+          "failure": "",
+          "requested_xy": [
+            -0.04615261611597335,
+            -0.22305454624040993
+          ],
+          "kind": "black_center",
+          "forecast": {
+            "final_xy": [
+              -0.046341953413392076,
+              -0.22432858005968187
+            ],
+            "z_mm": -6.0325879888775395e-05,
+            "tilt_deg": 0.0001466778781498137,
+            "margin_mm": 22.65094890874592,
+            "strict": 0.995897435897436,
+            "black": 0.997948717948718,
+            "red": 0.0017948717948717949,
+            "neither": 0.0002564102564102564
+          }
+        },
+        {
+          "final_center": "red",
+          "min_margin_mm": -135.7499716452471,
+          "final_margin_mm": -135.749822146515,
+          "end_xy_local_mm": [
+            -78.79758074160233,
+            -0.9169508145592412
+          ],
+          "inside": false,
+          "open": true,
+          "clear": true,
+          "stable": true,
+          "sustained": true,
+          "complete": false,
+          "branch": 1,
+          "held": true,
+          "failure": "",
+          "requested_xy": [
+            -0.2100852347236417,
+            -0.22280624710102628
+          ],
+          "kind": "red_center",
+          "forecast": {
+            "final_xy": [
+              -0.21013131276973937,
+              -0.22377124282926528
+            ],
+            "z_mm": -0.0001267310765130892,
+            "tilt_deg": 0.00018920519666445354,
+            "margin_mm": -143.90186518213244,
+            "strict": 0.005897435897435897,
+            "black": 0.007948717948717949,
+            "red": 0.9917948717948718,
+            "neither": 0.0002564102564102564
+          }
+        },
+        {
+          "final_center": "red",
+          "min_margin_mm": -132.75232234663764,
+          "final_margin_mm": -132.75230744764858,
+          "end_xy_local_mm": [
+            -75.8000660427359,
+            -35.41616489394004
+          ],
+          "inside": false,
+          "open": true,
+          "clear": true,
+          "stable": true,
+          "sustained": true,
+          "complete": false,
+          "branch": 2,
+          "held": true,
+          "failure": "",
+          "requested_xy": [
+            -0.20945350088607848,
+            -0.259800853631688
+          ],
+          "kind": "red_edge",
+          "forecast": {
+            "final_xy": [
+              -0.2079541910542606,
+              -0.26108462653238285
+            ],
+            "z_mm": -0.00015034357173028033,
+            "tilt_deg": 0.0002297243764811659,
+            "margin_mm": -123.14909338049023,
+            "strict": 0.005897435897435897,
+            "black": 0.007948717948717949,
+            "red": 0.9917948717948717,
+            "neither": 0.0002564102564102564
+          }
+        },
+        {
+          "final_center": "black",
+          "min_margin_mm": -12.698203844048024,
+          "final_margin_mm": -12.698143866460656,
+          "end_xy_local_mm": [
+            81.8545278218788,
+            -39.13955539791378
+          ],
+          "inside": false,
+          "open": true,
+          "clear": true,
+          "stable": true,
+          "sustained": true,
+          "complete": false,
+          "branch": 3,
+          "held": true,
+          "failure": "",
+          "requested_xy": [
+            -0.0455208822784101,
+            -0.26004915277107166
+          ],
+          "kind": "black_edge",
+          "forecast": {
+            "final_xy": [
+              -0.045377264219241584,
+              -0.2606749521035348
+            ],
+            "z_mm": -0.00010256987905586285,
+            "tilt_deg": 0.000162103044164919,
+            "margin_mm": 2.601860818844242,
+            "strict": 0.995897435897436,
+            "black": 0.997948717948718,
+            "red": 0.0017948717948717949,
+            "neither": 0.0002564102564102564
+          }
+        },
+        {
+          "final_center": "black",
+          "min_margin_mm": 16.3506734649448,
+          "final_margin_mm": 16.35070332652811,
+          "end_xy_local_mm": [
+            85.32110189004946,
+            -10.090708204925024
+          ],
+          "inside": true,
+          "open": true,
+          "clear": true,
+          "stable": true,
+          "sustained": true,
+          "complete": true,
+          "branch": 4,
+          "held": true,
+          "failure": "",
+          "requested_xy": [
+            -0.04231130907088723,
+            -0.2310175015971549
+          ],
+          "kind": "other",
+          "forecast": {
+            "final_xy": [
+              -0.04231744357834022,
+              -0.23230619568951427
+            ],
+            "z_mm": -6.794365216491579e-05,
+            "tilt_deg": 0.00015343409668883295,
+            "margin_mm": 19.52568202797564,
+            "strict": 0.9958974358974358,
+            "black": 0.9979487179487179,
+            "red": 0.0017948717948717949,
+            "neither": 0.0002564102564102564
+          }
+        }
+      ],
+      "trials": [
+        {
+          "kind": "black_center",
+          "rule_reason": "inside_keep",
+          "wm_selected": "student",
+          "raw": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 24.682599334499,
+            "requested_xy": [
+              -0.04615261611597335,
+              -0.22305454624040993
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 0
+          },
+          "wm": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 24.682599334499,
+            "requested_xy": [
+              -0.04615261611597335,
+              -0.22305454624040993
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 0
+          },
+          "rule": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 24.682599334499,
+            "requested_xy": [
+              -0.04615261611597335,
+              -0.22305454624040993
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 0
+          }
+        },
+        {
+          "kind": "red_center",
+          "rule_reason": "safe_menu",
+          "wm_selected": "region0",
+          "raw": {
+            "complete": false,
+            "held": true,
+            "final_center": "red",
+            "min_margin_mm": -135.7499716452471,
+            "requested_xy": [
+              -0.2100852347236417,
+              -0.22280624710102628
+            ],
+            "inside": false,
+            "failure": "",
+            "kind": "red_center",
+            "branch": 1
+          },
+          "wm": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 24.682599334499,
+            "requested_xy": [
+              -0.04615261611597335,
+              -0.22305454624040993
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 0
+          },
+          "rule": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 24.682599334499,
+            "requested_xy": [
+              -0.04615261611597335,
+              -0.22305454624040993
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 0
+          }
+        },
+        {
+          "kind": "red_edge",
+          "rule_reason": "safe_menu",
+          "wm_selected": "region0",
+          "raw": {
+            "complete": false,
+            "held": true,
+            "final_center": "red",
+            "min_margin_mm": -132.75232234663764,
+            "requested_xy": [
+              -0.20945350088607848,
+              -0.259800853631688
+            ],
+            "inside": false,
+            "failure": "",
+            "kind": "red_edge",
+            "branch": 2
+          },
+          "wm": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 24.682599334499,
+            "requested_xy": [
+              -0.04615261611597335,
+              -0.22305454624040993
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 0
+          },
+          "rule": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 24.682599334499,
+            "requested_xy": [
+              -0.04615261611597335,
+              -0.22305454624040993
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 0
+          }
+        },
+        {
+          "kind": "black_edge",
+          "rule_reason": "safe_menu",
+          "wm_selected": "student",
+          "raw": {
+            "complete": false,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": -12.698203844048024,
+            "requested_xy": [
+              -0.0455208822784101,
+              -0.26004915277107166
+            ],
+            "inside": false,
+            "failure": "",
+            "kind": "black_edge",
+            "branch": 3
+          },
+          "wm": {
+            "complete": false,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": -12.698203844048024,
+            "requested_xy": [
+              -0.0455208822784101,
+              -0.26004915277107166
+            ],
+            "inside": false,
+            "failure": "",
+            "kind": "black_edge",
+            "branch": 3
+          },
+          "rule": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 24.682599334499,
+            "requested_xy": [
+              -0.04615261611597335,
+              -0.22305454624040993
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 0
+          }
+        },
+        {
+          "kind": "natural",
+          "rule_reason": "inside_keep",
+          "wm_selected": "student",
+          "raw": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 16.3506734649448,
+            "requested_xy": [
+              -0.04231130907088723,
+              -0.2310175015971549
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "other",
+            "branch": 4
+          },
+          "wm": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 16.3506734649448,
+            "requested_xy": [
+              -0.04231130907088723,
+              -0.2310175015971549
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "other",
+            "branch": 4
+          },
+          "rule": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 16.3506734649448,
+            "requested_xy": [
+              -0.04231130907088723,
+              -0.2310175015971549
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "other",
+            "branch": 4
+          }
+        }
+      ],
+      "grasp_action": "vision",
+      "colors_verified": true,
+      "natural_region_count": 2
+    },
+    {
+      "scene": 253121,
+      "layout": "12",
+      "gate": 48,
+      "held": true,
+      "teacher_available": true,
+      "executions": [
+        {
+          "final_center": "neither",
+          "min_margin_mm": -293.25694341592623,
+          "final_margin_mm": -293.25658594299443,
+          "end_xy_local_mm": [
+            233.94007695297134,
+            1.2265278899907888
+          ],
+          "inside": false,
+          "open": false,
+          "clear": false,
+          "stable": false,
+          "sustained": true,
+          "complete": false,
+          "branch": 0,
+          "held": true,
+          "failure": "IK target is not reachable within 10 mm: [-0.17215180891275783, -0.286914485698905, 0.138] (0.0134 m)",
+          "requested_xy": [
+            -0.22115180891275782,
+            -0.278914485698905
+          ],
+          "kind": "black_edge",
+          "forecast": {
+            "final_xy": [
+              -0.21802549206133656,
+              -0.28123510146599606
+            ],
+            "z_mm": -5.39999422885438e-05,
+            "tilt_deg": 0.00013281919502635921,
+            "margin_mm": -9.188805614793278,
+            "strict": 0.24328682039624652,
+            "black": 0.9979487179487176,
+            "red": 0.0017948717948717949,
+            "neither": 0.0002564102564102564
+          }
+        },
+        {
+          "final_center": "red",
+          "min_margin_mm": -143.7319294133879,
+          "final_margin_mm": -143.73188098471766,
+          "end_xy_local_mm": [
+            84.41537199469457,
+            -39.12276246296903
+          ],
+          "inside": false,
+          "open": true,
+          "clear": true,
+          "stable": true,
+          "sustained": true,
+          "complete": false,
+          "branch": 1,
+          "held": true,
+          "failure": "",
+          "requested_xy": [
+            -0.05251859393572808,
+            -0.27883521539102496
+          ],
+          "kind": "red_edge",
+          "forecast": {
+            "final_xy": [
+              -0.05150276319020647,
+              -0.2800097206256459
+            ],
+            "z_mm": -0.0001474172911217172,
+            "tilt_deg": 0.00021887210320307095,
+            "margin_mm": -130.2029343362726,
+            "strict": 0.005897435897435897,
+            "black": 0.007948717948717949,
+            "red": 0.9917948717948719,
+            "neither": 0.0002564102564102564
+          }
+        },
+        {
+          "final_center": "black",
+          "min_margin_mm": 17.962691686169265,
+          "final_margin_mm": 17.96278121628196,
+          "end_xy_local_mm": [
+            -77.27929020630508,
+            -7.191506288748661
+          ],
+          "inside": true,
+          "open": true,
+          "clear": true,
+          "stable": true,
+          "sustained": true,
+          "complete": true,
+          "branch": 2,
+          "held": true,
+          "failure": "",
+          "requested_xy": [
+            -0.22121802493718168,
+            -0.24691455420775785
+          ],
+          "kind": "black_center",
+          "forecast": {
+            "final_xy": [
+              -0.21711259323491633,
+              -0.2497291553913067
+            ],
+            "z_mm": -9.153447787812639e-05,
+            "tilt_deg": 0.0001632145840534678,
+            "margin_mm": 18.98022690227538,
+            "strict": 0.9958974358974357,
+            "black": 0.9979487179487179,
+            "red": 0.0017948717948717949,
+            "neither": 0.0002564102564102564
+          }
+        },
+        {
+          "final_center": "red",
+          "min_margin_mm": -143.6987397341096,
+          "final_margin_mm": -143.69872110769796,
+          "end_xy_local_mm": [
+            84.38221211767487,
+            -5.66270550132338
+          ],
+          "inside": false,
+          "open": true,
+          "clear": true,
+          "stable": true,
+          "sustained": true,
+          "complete": false,
+          "branch": 3,
+          "held": true,
+          "failure": "",
+          "requested_xy": [
+            -0.05258480996015198,
+            -0.24683528389987786
+          ],
+          "kind": "red_center",
+          "forecast": {
+            "final_xy": [
+              -0.05260977440610712,
+              -0.24781495419878158
+            ],
+            "z_mm": -0.00013048934247765546,
+            "tilt_deg": 0.00019581328655262354,
+            "margin_mm": -144.32229781394952,
+            "strict": 0.005897435897435897,
+            "black": 0.007948717948717949,
+            "red": 0.9917948717948719,
+            "neither": 0.0002564102564102564
+          }
+        },
+        {
+          "final_center": "black",
+          "min_margin_mm": 11.20386967427331,
+          "final_margin_mm": 11.203899476531893,
+          "end_xy_local_mm": [
+            -74.6410280221738,
+            10.288765005869442
+          ],
+          "inside": true,
+          "open": true,
+          "clear": true,
+          "stable": true,
+          "sustained": true,
+          "complete": true,
+          "branch": 4,
+          "held": true,
+          "failure": "",
+          "requested_xy": [
+            -0.21575335009488011,
+            -0.22900652617463163
+          ],
+          "kind": "other",
+          "forecast": {
+            "final_xy": [
+              -0.21178957489948028,
+              -0.2322936923415629
+            ],
+            "z_mm": -8.058651982129425e-05,
+            "tilt_deg": 0.0001219501063043844,
+            "margin_mm": 12.378602233674892,
+            "strict": 0.995897435897436,
+            "black": 0.997948717948718,
+            "red": 0.0017948717948717949,
+            "neither": 0.0002564102564102564
+          }
+        }
+      ],
+      "trials": [
+        {
+          "kind": "black_edge",
+          "rule_reason": "safe_menu",
+          "wm_selected": "region1",
+          "raw": {
+            "complete": false,
+            "held": true,
+            "final_center": "neither",
+            "min_margin_mm": -293.25694341592623,
+            "requested_xy": [
+              -0.22115180891275782,
+              -0.278914485698905
+            ],
+            "inside": false,
+            "failure": "IK target is not reachable within 10 mm: [-0.17215180891275783, -0.286914485698905, 0.138] (0.0134 m)",
+            "kind": "black_edge",
+            "branch": 0
+          },
+          "wm": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 17.962691686169265,
+            "requested_xy": [
+              -0.22121802493718168,
+              -0.24691455420775785
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 2
+          },
+          "rule": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 17.962691686169265,
+            "requested_xy": [
+              -0.22121802493718168,
+              -0.24691455420775785
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 2
+          }
+        },
+        {
+          "kind": "red_edge",
+          "rule_reason": "safe_menu",
+          "wm_selected": "region1",
+          "raw": {
+            "complete": false,
+            "held": true,
+            "final_center": "red",
+            "min_margin_mm": -143.7319294133879,
+            "requested_xy": [
+              -0.05251859393572808,
+              -0.27883521539102496
+            ],
+            "inside": false,
+            "failure": "",
+            "kind": "red_edge",
+            "branch": 1
+          },
+          "wm": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 17.962691686169265,
+            "requested_xy": [
+              -0.22121802493718168,
+              -0.24691455420775785
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 2
+          },
+          "rule": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 17.962691686169265,
+            "requested_xy": [
+              -0.22121802493718168,
+              -0.24691455420775785
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 2
+          }
+        },
+        {
+          "kind": "black_center",
+          "rule_reason": "inside_keep",
+          "wm_selected": "student",
+          "raw": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 17.962691686169265,
+            "requested_xy": [
+              -0.22121802493718168,
+              -0.24691455420775785
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 2
+          },
+          "wm": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 17.962691686169265,
+            "requested_xy": [
+              -0.22121802493718168,
+              -0.24691455420775785
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 2
+          },
+          "rule": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 17.962691686169265,
+            "requested_xy": [
+              -0.22121802493718168,
+              -0.24691455420775785
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 2
+          }
+        },
+        {
+          "kind": "red_center",
+          "rule_reason": "safe_menu",
+          "wm_selected": "region2",
+          "raw": {
+            "complete": false,
+            "held": true,
+            "final_center": "red",
+            "min_margin_mm": -143.6987397341096,
+            "requested_xy": [
+              -0.05258480996015198,
+              -0.24683528389987786
+            ],
+            "inside": false,
+            "failure": "",
+            "kind": "red_center",
+            "branch": 3
+          },
+          "wm": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 17.962691686169265,
+            "requested_xy": [
+              -0.22121802493718168,
+              -0.24691455420775785
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 2
+          },
+          "rule": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 17.962691686169265,
+            "requested_xy": [
+              -0.22121802493718168,
+              -0.24691455420775785
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 2
+          }
+        },
+        {
+          "kind": "natural",
+          "rule_reason": "inside_keep",
+          "wm_selected": "student",
+          "raw": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 11.20386967427331,
+            "requested_xy": [
+              -0.21575335009488011,
+              -0.22900652617463163
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "other",
+            "branch": 4
+          },
+          "wm": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 11.20386967427331,
+            "requested_xy": [
+              -0.21575335009488011,
+              -0.22900652617463163
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "other",
+            "branch": 4
+          },
+          "rule": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 11.20386967427331,
+            "requested_xy": [
+              -0.21575335009488011,
+              -0.22900652617463163
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "other",
+            "branch": 4
+          }
+        }
+      ],
+      "grasp_action": "vision",
+      "colors_verified": true,
+      "natural_region_count": 2
+    },
+    {
+      "scene": 253121,
+      "layout": "21",
+      "gate": 48,
+      "held": true,
+      "teacher_available": true,
+      "executions": [
+        {
+          "final_center": "neither",
+          "min_margin_mm": -128.36869255032107,
+          "final_margin_mm": -128.36851404511197,
+          "end_xy_local_mm": [
+            237.68502303513506,
+            3.2863638864881852
+          ],
+          "inside": false,
+          "open": false,
+          "clear": false,
+          "stable": false,
+          "sustained": true,
+          "complete": false,
+          "branch": 0,
+          "held": true,
+          "failure": "IK target is not reachable within 10 mm: [-0.17215180891275783, -0.286914485698905, 0.138] (0.0134 m)",
+          "requested_xy": [
+            -0.22115180891275782,
+            -0.278914485698905
+          ],
+          "kind": "red_edge",
+          "forecast": {
+            "final_xy": [
+              -0.21972517753877166,
+              -0.2801801038627382
+            ],
+            "z_mm": -0.00014979273218068866,
+            "tilt_deg": 0.00022781964381439539,
+            "margin_mm": -124.18473175582825,
+            "strict": 0.005897435897435897,
+            "black": 0.007948717948717949,
+            "red": 0.9917948717948717,
+            "neither": 0.0002564102564102564
+          }
+        },
+        {
+          "final_center": "black",
+          "min_margin_mm": -9.466642651529023,
+          "final_margin_mm": -9.466583016177616,
+          "end_xy_local_mm": [
+            83.96925018072068,
+            -38.24359280440619
+          ],
+          "inside": false,
+          "open": true,
+          "clear": true,
+          "stable": true,
+          "sustained": true,
+          "complete": false,
+          "branch": 1,
+          "held": true,
+          "failure": "",
+          "requested_xy": [
+            -0.05251859393572808,
+            -0.27883521539102496
+          ],
+          "kind": "black_edge",
+          "forecast": {
+            "final_xy": [
+              -0.05237260322685981,
+              -0.2794562382348859
+            ],
+            "z_mm": -0.00010225298636390403,
+            "tilt_deg": 0.00016177105073445256,
+            "margin_mm": 2.5982601339077482,
+            "strict": 0.9958974358974357,
+            "black": 0.9979487179487179,
+            "red": 0.0017948717948717949,
+            "neither": 0.0002564102564102564
+          }
+        },
+        {
+          "final_center": "red",
+          "min_margin_mm": -137.84344586401107,
+          "final_margin_mm": -137.8433861978254,
+          "end_xy_local_mm": [
+            -78.5268772078023,
+            -4.145147406338733
+          ],
+          "inside": false,
+          "open": true,
+          "clear": true,
+          "stable": true,
+          "sustained": true,
+          "complete": false,
+          "branch": 2,
+          "held": true,
+          "failure": "",
+          "requested_xy": [
+            -0.22121802493718168,
+            -0.24691455420775785
+          ],
+          "kind": "red_center",
+          "forecast": {
+            "final_xy": [
+              -0.2212638611673289,
+              -0.24786651157032696
+            ],
+            "z_mm": -0.0001261103546267274,
+            "tilt_deg": 0.00018806407418780655,
+            "margin_mm": -143.793603702864,
+            "strict": 0.005897435897435897,
+            "black": 0.007948717948717949,
+            "red": 0.9917948717948719,
+            "neither": 0.0002564102564102564
+          }
+        },
+        {
+          "final_center": "black",
+          "min_margin_mm": 24.673576197361417,
+          "final_margin_mm": 24.673620962417772,
+          "end_xy_local_mm": [
+            84.19853896716275,
+            -3.4506307506463614
+          ],
+          "inside": true,
+          "open": true,
+          "clear": true,
+          "stable": true,
+          "sustained": true,
+          "complete": true,
+          "branch": 3,
+          "held": true,
+          "failure": "",
+          "requested_xy": [
+            -0.05258480996015198,
+            -0.24683528389987786
+          ],
+          "kind": "black_center",
+          "forecast": {
+            "final_xy": [
+              -0.05280067595779006,
+              -0.24730992213039724
+            ],
+            "z_mm": -3.068341298112855e-05,
+            "tilt_deg": 0.0001498525262474186,
+            "margin_mm": 22.56085191901174,
+            "strict": 0.995897435897436,
+            "black": 0.9979487179487181,
+            "red": 0.0017948717948717949,
+            "neither": 0.0002564102564102564
+          }
+        },
+        {
+          "final_center": "black",
+          "min_margin_mm": 14.489388165812464,
+          "final_margin_mm": 14.489418029739527,
+          "end_xy_local_mm": [
+            89.39908113717009,
+            6.733572182031884
+          ],
+          "inside": true,
+          "open": true,
+          "clear": true,
+          "stable": true,
+          "sustained": true,
+          "complete": true,
+          "branch": 4,
+          "held": true,
+          "failure": "",
+          "requested_xy": [
+            -0.04725692436225051,
+            -0.23603197993793928
+          ],
+          "kind": "other",
+          "forecast": {
+            "final_xy": [
+              -0.047261259078546364,
+              -0.2373201576366062
+            ],
+            "z_mm": -6.817914513246744e-05,
+            "tilt_deg": 0.00015356077903105637,
+            "margin_mm": 19.464188515132925,
+            "strict": 0.995897435897436,
+            "black": 0.9979487179487178,
+            "red": 0.0017948717948717949,
+            "neither": 0.0002564102564102564
+          }
+        }
+      ],
+      "trials": [
+        {
+          "kind": "red_edge",
+          "rule_reason": "safe_menu",
+          "wm_selected": "region2",
+          "raw": {
+            "complete": false,
+            "held": true,
+            "final_center": "neither",
+            "min_margin_mm": -128.36869255032107,
+            "requested_xy": [
+              -0.22115180891275782,
+              -0.278914485698905
+            ],
+            "inside": false,
+            "failure": "IK target is not reachable within 10 mm: [-0.17215180891275783, -0.286914485698905, 0.138] (0.0134 m)",
+            "kind": "red_edge",
+            "branch": 0
+          },
+          "wm": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 24.673576197361417,
+            "requested_xy": [
+              -0.05258480996015198,
+              -0.24683528389987786
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 3
+          },
+          "rule": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 24.673576197361417,
+            "requested_xy": [
+              -0.05258480996015198,
+              -0.24683528389987786
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 3
+          }
+        },
+        {
+          "kind": "black_edge",
+          "rule_reason": "safe_menu",
+          "wm_selected": "student",
+          "raw": {
+            "complete": false,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": -9.466642651529023,
+            "requested_xy": [
+              -0.05251859393572808,
+              -0.27883521539102496
+            ],
+            "inside": false,
+            "failure": "",
+            "kind": "black_edge",
+            "branch": 1
+          },
+          "wm": {
+            "complete": false,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": -9.466642651529023,
+            "requested_xy": [
+              -0.05251859393572808,
+              -0.27883521539102496
+            ],
+            "inside": false,
+            "failure": "",
+            "kind": "black_edge",
+            "branch": 1
+          },
+          "rule": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 24.673576197361417,
+            "requested_xy": [
+              -0.05258480996015198,
+              -0.24683528389987786
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 3
+          }
+        },
+        {
+          "kind": "red_center",
+          "rule_reason": "safe_menu",
+          "wm_selected": "region2",
+          "raw": {
+            "complete": false,
+            "held": true,
+            "final_center": "red",
+            "min_margin_mm": -137.84344586401107,
+            "requested_xy": [
+              -0.22121802493718168,
+              -0.24691455420775785
+            ],
+            "inside": false,
+            "failure": "",
+            "kind": "red_center",
+            "branch": 2
+          },
+          "wm": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 24.673576197361417,
+            "requested_xy": [
+              -0.05258480996015198,
+              -0.24683528389987786
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 3
+          },
+          "rule": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 24.673576197361417,
+            "requested_xy": [
+              -0.05258480996015198,
+              -0.24683528389987786
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 3
+          }
+        },
+        {
+          "kind": "black_center",
+          "rule_reason": "inside_keep",
+          "wm_selected": "student",
+          "raw": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 24.673576197361417,
+            "requested_xy": [
+              -0.05258480996015198,
+              -0.24683528389987786
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 3
+          },
+          "wm": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 24.673576197361417,
+            "requested_xy": [
+              -0.05258480996015198,
+              -0.24683528389987786
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 3
+          },
+          "rule": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 24.673576197361417,
+            "requested_xy": [
+              -0.05258480996015198,
+              -0.24683528389987786
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 3
+          }
+        },
+        {
+          "kind": "natural",
+          "rule_reason": "inside_keep",
+          "wm_selected": "student",
+          "raw": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 14.489388165812464,
+            "requested_xy": [
+              -0.04725692436225051,
+              -0.23603197993793928
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "other",
+            "branch": 4
+          },
+          "wm": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 14.489388165812464,
+            "requested_xy": [
+              -0.04725692436225051,
+              -0.23603197993793928
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "other",
+            "branch": 4
+          },
+          "rule": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 14.489388165812464,
+            "requested_xy": [
+              -0.04725692436225051,
+              -0.23603197993793928
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "other",
+            "branch": 4
+          }
+        }
+      ],
+      "grasp_action": "vision",
+      "colors_verified": true,
+      "natural_region_count": 2
+    },
+    {
+      "scene": 253129,
+      "layout": "12",
+      "gate": 48,
+      "held": true,
+      "teacher_available": true,
+      "executions": [
+        {
+          "final_center": "black",
+          "min_margin_mm": 19.95212617651744,
+          "final_margin_mm": 19.9521859774147,
+          "end_xy_local_mm": [
+            -80.72343058554291,
+            -4.514593814398624
+          ],
+          "inside": true,
+          "open": true,
+          "clear": true,
+          "stable": true,
+          "sustained": true,
+          "complete": true,
+          "branch": 0,
+          "held": true,
+          "failure": "",
+          "requested_xy": [
+            -0.2154143940304927,
+            -0.2382827215444593
+          ],
+          "kind": "black_center",
+          "forecast": {
+            "final_xy": [
+              -0.21131260976976943,
+              -0.2411010895721886
+            ],
+            "z_mm": -9.103623721173951e-05,
+            "tilt_deg": 0.00016259470870623322,
+            "margin_mm": 18.99771090057216,
+            "strict": 0.9958974358974358,
+            "black": 0.997948717948718,
+            "red": 0.0017948717948717949,
+            "neither": 0.0002564102564102564
+          }
+        },
+        {
+          "final_center": "red",
+          "min_margin_mm": -146.5702673562613,
+          "final_margin_mm": -146.5702116837407,
+          "end_xy_local_mm": [
+            85.79896707561248,
+            26.253316733348235
+          ],
+          "inside": false,
+          "open": true,
+          "clear": true,
+          "stable": true,
+          "sustained": true,
+          "complete": false,
+          "branch": 1,
+          "held": true,
+          "failure": "",
+          "requested_xy": [
+            -0.04349943657957449,
+            -0.21193110027137405
+          ],
+          "kind": "red_edge",
+          "forecast": {
+            "final_xy": [
+              -0.042949423187992074,
+              -0.21318151849577024
+            ],
+            "z_mm": -0.00014219279133530075,
+            "tilt_deg": 0.00022962550669859526,
+            "margin_mm": -137.77980787208867,
+            "strict": 0.005897435897435897,
+            "black": 0.007948717948717949,
+            "red": 0.9917948717948719,
+            "neither": 0.0002564102564102564
+          }
+        },
+        {
+          "final_center": "black",
+          "min_margin_mm": -3.5423473483933607,
+          "final_margin_mm": -3.5422728494140974,
+          "end_xy_local_mm": [
+            -82.94524305370261,
+            28.530740024338733
+          ],
+          "inside": false,
+          "open": true,
+          "clear": true,
+          "stable": true,
+          "sustained": true,
+          "complete": false,
+          "branch": 2,
+          "held": true,
+          "failure": "",
+          "requested_xy": [
+            -0.2149812168635284,
+            -0.20628565359219186
+          ],
+          "kind": "black_edge",
+          "forecast": {
+            "final_xy": [
+              -0.21184171612965602,
+              -0.20847441013358242
+            ],
+            "z_mm": -4.740620161111591e-05,
+            "tilt_deg": 0.00013027192697780856,
+            "margin_mm": -9.241585588162865,
+            "strict": 0.23984458108020443,
+            "black": 0.9979487179487178,
+            "red": 0.0017948717948717949,
+            "neither": 0.0002564102564102564
+          }
+        },
+        {
+          "final_center": "red",
+          "min_margin_mm": -146.66834034990003,
+          "final_margin_mm": -146.6683070270732,
+          "end_xy_local_mm": [
+            85.897062418945,
+            -5.338219985248347
+          ],
+          "inside": false,
+          "open": true,
+          "clear": true,
+          "stable": true,
+          "sustained": true,
+          "complete": false,
+          "branch": 3,
+          "held": true,
+          "failure": "",
+          "requested_xy": [
+            -0.043932613746538826,
+            -0.2439281682236415
+          ],
+          "kind": "red_center",
+          "forecast": {
+            "final_xy": [
+              -0.0439772456895214,
+              -0.24487749259377398
+            ],
+            "z_mm": -0.00012652121718441863,
+            "tilt_deg": 0.0001901299569006484,
+            "margin_mm": -143.95762683260864,
+            "strict": 0.005897435897435897,
+            "black": 0.007948717948717949,
+            "red": 0.9917948717948716,
+            "neither": 0.0002564102564102564
+          }
+        },
+        {
+          "final_center": "neither",
+          "min_margin_mm": -284.74879581199764,
+          "final_margin_mm": -284.74852056920207,
+          "end_xy_local_mm": [
+            223.97727596107387,
+            -0.10008077196779958
+          ],
+          "inside": false,
+          "open": false,
+          "clear": false,
+          "stable": false,
+          "sustained": true,
+          "complete": false,
+          "branch": 4,
+          "held": true,
+          "failure": "no confirmed goal",
+          "requested_xy": null,
+          "kind": "other"
+        },
+        {
+          "final_center": "black",
+          "min_margin_mm": 22.346295966435044,
+          "final_margin_mm": 22.34634046410877,
+          "end_xy_local_mm": [
+            -83.11758507223699,
+            -1.4860269662842274
+          ],
+          "inside": true,
+          "open": true,
+          "clear": true,
+          "stable": true,
+          "sustained": true,
+          "complete": true,
+          "branch": 5,
+          "held": true,
+          "failure": "",
+          "requested_xy": [
+            -0.21735021471977234,
+            -0.2369828075170517
+          ],
+          "kind": "other",
+          "forecast": {
+            "final_xy": [
+              -0.21309335896460713,
+              -0.24050363222981022
+            ],
+            "z_mm": -0.00011727000912770007,
+            "tilt_deg": 0.00020229732596808856,
+            "margin_mm": 19.128288606076936,
+            "strict": 0.9958974358974358,
+            "black": 0.997948717948718,
+            "red": 0.0017948717948717949,
+            "neither": 0.0002564102564102564
+          }
+        }
+      ],
+      "trials": [
+        {
+          "kind": "black_center",
+          "rule_reason": "inside_keep",
+          "wm_selected": "student",
+          "raw": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 19.95212617651744,
+            "requested_xy": [
+              -0.2154143940304927,
+              -0.2382827215444593
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 0
+          },
+          "wm": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 19.95212617651744,
+            "requested_xy": [
+              -0.2154143940304927,
+              -0.2382827215444593
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 0
+          },
+          "rule": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 19.95212617651744,
+            "requested_xy": [
+              -0.2154143940304927,
+              -0.2382827215444593
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 0
+          }
+        },
+        {
+          "kind": "red_edge",
+          "rule_reason": "safe_menu",
+          "wm_selected": "region0",
+          "raw": {
+            "complete": false,
+            "held": true,
+            "final_center": "red",
+            "min_margin_mm": -146.5702673562613,
+            "requested_xy": [
+              -0.04349943657957449,
+              -0.21193110027137405
+            ],
+            "inside": false,
+            "failure": "",
+            "kind": "red_edge",
+            "branch": 1
+          },
+          "wm": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 19.95212617651744,
+            "requested_xy": [
+              -0.2154143940304927,
+              -0.2382827215444593
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 0
+          },
+          "rule": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 19.95212617651744,
+            "requested_xy": [
+              -0.2154143940304927,
+              -0.2382827215444593
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 0
+          }
+        },
+        {
+          "kind": "black_edge",
+          "rule_reason": "safe_menu",
+          "wm_selected": "region0",
+          "raw": {
+            "complete": false,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": -3.5423473483933607,
+            "requested_xy": [
+              -0.2149812168635284,
+              -0.20628565359219186
+            ],
+            "inside": false,
+            "failure": "",
+            "kind": "black_edge",
+            "branch": 2
+          },
+          "wm": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 19.95212617651744,
+            "requested_xy": [
+              -0.2154143940304927,
+              -0.2382827215444593
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 0
+          },
+          "rule": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 19.95212617651744,
+            "requested_xy": [
+              -0.2154143940304927,
+              -0.2382827215444593
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 0
+          }
+        },
+        {
+          "kind": "red_center",
+          "rule_reason": "safe_menu",
+          "wm_selected": "region0",
+          "raw": {
+            "complete": false,
+            "held": true,
+            "final_center": "red",
+            "min_margin_mm": -146.66834034990003,
+            "requested_xy": [
+              -0.043932613746538826,
+              -0.2439281682236415
+            ],
+            "inside": false,
+            "failure": "",
+            "kind": "red_center",
+            "branch": 3
+          },
+          "wm": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 19.95212617651744,
+            "requested_xy": [
+              -0.2154143940304927,
+              -0.2382827215444593
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 0
+          },
+          "rule": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 19.95212617651744,
+            "requested_xy": [
+              -0.2154143940304927,
+              -0.2382827215444593
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 0
+          }
+        },
+        {
+          "kind": "natural",
+          "rule_reason": "expert_center",
+          "wm_selected": "region0",
+          "raw": {
+            "complete": false,
+            "held": true,
+            "final_center": "neither",
+            "min_margin_mm": -284.74879581199764,
+            "requested_xy": null,
+            "inside": false,
+            "failure": "no confirmed goal",
+            "kind": "other",
+            "branch": 4
+          },
+          "wm": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 22.346295966435044,
+            "requested_xy": [
+              -0.21735021471977234,
+              -0.2369828075170517
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "other",
+            "branch": 5
+          },
+          "rule": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 22.346295966435044,
+            "requested_xy": [
+              -0.21735021471977234,
+              -0.2369828075170517
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "other",
+            "branch": 5
+          }
+        }
+      ],
+      "grasp_action": "vision",
+      "colors_verified": true,
+      "natural_region_count": 2
+    },
+    {
+      "scene": 253129,
+      "layout": "21",
+      "gate": 47,
+      "held": true,
+      "teacher_available": true,
+      "executions": [
+        {
+          "final_center": "red",
+          "min_margin_mm": -142.0650082652394,
+          "final_margin_mm": -142.0649784656477,
+          "end_xy_local_mm": [
+            -81.29373385751948,
+            -2.1524104882683646
+          ],
+          "inside": false,
+          "open": true,
+          "clear": true,
+          "stable": true,
+          "sustained": true,
+          "complete": false,
+          "branch": 0,
+          "held": true,
+          "failure": "",
+          "requested_xy": [
+            -0.2154143940304927,
+            -0.2382827215444593
+          ],
+          "kind": "red_center",
+          "forecast": {
+            "final_xy": [
+              -0.21545991799909392,
+              -0.23923900481608
+            ],
+            "z_mm": -0.00012635471567655105,
+            "tilt_deg": 0.00018844432528798656,
+            "margin_mm": -143.82688487486027,
+            "strict": 0.005897435897435897,
+            "black": 0.007948717948717949,
+            "red": 0.9917948717948719,
+            "neither": 0.0002564102564102564
+          }
+        },
+        {
+          "final_center": "black",
+          "min_margin_mm": -6.898542700935637,
+          "final_margin_mm": -6.898498102404997,
+          "end_xy_local_mm": [
+            85.49666528189199,
+            28.563348113414236
+          ],
+          "inside": false,
+          "open": true,
+          "clear": true,
+          "stable": true,
+          "sustained": true,
+          "complete": false,
+          "branch": 1,
+          "held": true,
+          "failure": "",
+          "requested_xy": [
+            -0.04349943657957449,
+            -0.21193110027137405
+          ],
+          "kind": "black_edge",
+          "forecast": {
+            "final_xy": [
+              -0.043349497048197884,
+              -0.21253827471214856
+            ],
+            "z_mm": -9.272557657362384e-05,
+            "tilt_deg": 0.00014974902363981728,
+            "margin_mm": 2.4701482040420566,
+            "strict": 0.995897435897436,
+            "black": 0.997948717948718,
+            "red": 0.0017948717948717949,
+            "neither": 0.0002564102564102564
+          }
+        },
+        {
+          "final_center": "red",
+          "min_margin_mm": -143.59946424072922,
+          "final_margin_mm": -143.5994344411375,
+          "end_xy_local_mm": [
+            -82.82818983300929,
+            28.580728100582277
+          ],
+          "inside": false,
+          "open": true,
+          "clear": true,
+          "stable": true,
+          "sustained": true,
+          "complete": false,
+          "branch": 2,
+          "held": true,
+          "failure": "",
+          "requested_xy": [
+            -0.2149812168635284,
+            -0.20628565359219186
+          ],
+          "kind": "red_edge",
+          "forecast": {
+            "final_xy": [
+              -0.21361631976850162,
+              -0.20754898589317725
+            ],
+            "z_mm": -0.0001500979204449761,
+            "tilt_deg": 0.0002274491880120644,
+            "margin_mm": -125.18992744504959,
+            "strict": 0.005897435897435897,
+            "black": 0.007948717948717949,
+            "red": 0.9917948717948717,
+            "neither": 0.0002564102564102564
+          }
+        },
+        {
+          "final_center": "black",
+          "min_margin_mm": 24.671465359183852,
+          "final_margin_mm": 24.67150965514374,
+          "end_xy_local_mm": [
+            85.44275426327195,
+            -3.229314422526259
+          ],
+          "inside": true,
+          "open": true,
+          "clear": true,
+          "stable": true,
+          "sustained": true,
+          "complete": true,
+          "branch": 3,
+          "held": true,
+          "failure": "",
+          "requested_xy": [
+            -0.043932613746538826,
+            -0.2439281682236415
+          ],
+          "kind": "black_center",
+          "forecast": {
+            "final_xy": [
+              -0.044150199627417855,
+              -0.24440146421443604
+            ],
+            "z_mm": -3.070777373904312e-05,
+            "tilt_deg": 0.00014975569370591084,
+            "margin_mm": 22.558539900382577,
+            "strict": 0.995897435897436,
+            "black": 0.997948717948718,
+            "red": 0.0017948717948717949,
+            "neither": 0.0002564102564102564
+          }
+        },
+        {
+          "final_center": "black",
+          "min_margin_mm": 18.538149781022458,
+          "final_margin_mm": 18.538157432634232,
+          "end_xy_local_mm": [
+            79.30940204076245,
+            1.8286363220748618
+          ],
+          "inside": true,
+          "open": true,
+          "clear": true,
+          "stable": true,
+          "sustained": true,
+          "complete": true,
+          "branch": 4,
+          "held": true,
+          "failure": "",
+          "requested_xy": [
+            -0.05026204734388062,
+            -0.23947301132963733
+          ],
+          "kind": "other",
+          "forecast": {
+            "final_xy": [
+              -0.050479777278607176,
+              -0.23994928191788972
+            ],
+            "z_mm": -3.065368786865629e-05,
+            "tilt_deg": 0.00014967047751887348,
+            "margin_mm": 22.55847100011159,
+            "strict": 0.995897435897436,
+            "black": 0.9979487179487181,
+            "red": 0.0017948717948717949,
+            "neither": 0.0002564102564102564
+          }
+        }
+      ],
+      "trials": [
+        {
+          "kind": "red_center",
+          "rule_reason": "safe_menu",
+          "wm_selected": "region2",
+          "raw": {
+            "complete": false,
+            "held": true,
+            "final_center": "red",
+            "min_margin_mm": -142.0650082652394,
+            "requested_xy": [
+              -0.2154143940304927,
+              -0.2382827215444593
+            ],
+            "inside": false,
+            "failure": "",
+            "kind": "red_center",
+            "branch": 0
+          },
+          "wm": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 24.671465359183852,
+            "requested_xy": [
+              -0.043932613746538826,
+              -0.2439281682236415
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 3
+          },
+          "rule": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 24.671465359183852,
+            "requested_xy": [
+              -0.043932613746538826,
+              -0.2439281682236415
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 3
+          }
+        },
+        {
+          "kind": "black_edge",
+          "rule_reason": "safe_menu",
+          "wm_selected": "student",
+          "raw": {
+            "complete": false,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": -6.898542700935637,
+            "requested_xy": [
+              -0.04349943657957449,
+              -0.21193110027137405
+            ],
+            "inside": false,
+            "failure": "",
+            "kind": "black_edge",
+            "branch": 1
+          },
+          "wm": {
+            "complete": false,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": -6.898542700935637,
+            "requested_xy": [
+              -0.04349943657957449,
+              -0.21193110027137405
+            ],
+            "inside": false,
+            "failure": "",
+            "kind": "black_edge",
+            "branch": 1
+          },
+          "rule": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 24.671465359183852,
+            "requested_xy": [
+              -0.043932613746538826,
+              -0.2439281682236415
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 3
+          }
+        },
+        {
+          "kind": "red_edge",
+          "rule_reason": "safe_menu",
+          "wm_selected": "region2",
+          "raw": {
+            "complete": false,
+            "held": true,
+            "final_center": "red",
+            "min_margin_mm": -143.59946424072922,
+            "requested_xy": [
+              -0.2149812168635284,
+              -0.20628565359219186
+            ],
+            "inside": false,
+            "failure": "",
+            "kind": "red_edge",
+            "branch": 2
+          },
+          "wm": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 24.671465359183852,
+            "requested_xy": [
+              -0.043932613746538826,
+              -0.2439281682236415
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 3
+          },
+          "rule": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 24.671465359183852,
+            "requested_xy": [
+              -0.043932613746538826,
+              -0.2439281682236415
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 3
+          }
+        },
+        {
+          "kind": "black_center",
+          "rule_reason": "inside_keep",
+          "wm_selected": "student",
+          "raw": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 24.671465359183852,
+            "requested_xy": [
+              -0.043932613746538826,
+              -0.2439281682236415
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 3
+          },
+          "wm": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 24.671465359183852,
+            "requested_xy": [
+              -0.043932613746538826,
+              -0.2439281682236415
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 3
+          },
+          "rule": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 24.671465359183852,
+            "requested_xy": [
+              -0.043932613746538826,
+              -0.2439281682236415
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "black_center",
+            "branch": 3
+          }
+        },
+        {
+          "kind": "natural",
+          "rule_reason": "inside_keep",
+          "wm_selected": "student",
+          "raw": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 18.538149781022458,
+            "requested_xy": [
+              -0.05026204734388062,
+              -0.23947301132963733
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "other",
+            "branch": 4
+          },
+          "wm": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 18.538149781022458,
+            "requested_xy": [
+              -0.05026204734388062,
+              -0.23947301132963733
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "other",
+            "branch": 4
+          },
+          "rule": {
+            "complete": true,
+            "held": true,
+            "final_center": "black",
+            "min_margin_mm": 18.538149781022458,
+            "requested_xy": [
+              -0.05026204734388062,
+              -0.23947301132963733
+            ],
+            "inside": true,
+            "failure": "",
+            "kind": "other",
+            "branch": 4
+          }
+        }
+      ],
+      "grasp_action": "vision",
+      "colors_verified": true,
+      "natural_region_count": 2
+    }
+  ],
+  "summary": {
+    "natural": {
+      "raw": {
+        "total": 8,
+        "strict": 7,
+        "retained": 7,
+        "changed": 0,
+        "abstained": 1,
+        "no_gate": 0,
+        "red": 0,
+        "original_strict": 7,
+        "spoiled": 0,
+        "original_red": 0,
+        "red_rescued": 0,
+        "original_overhang": 0,
+        "overhang_rescued": 0,
+        "rescued": 0,
+        "by_layout": {
+          "12": 3,
+          "21": 4
+        }
+      },
+      "wm": {
+        "total": 8,
+        "strict": 8,
+        "retained": 7,
+        "changed": 1,
+        "abstained": 0,
+        "no_gate": 0,
+        "red": 0,
+        "original_strict": 7,
+        "spoiled": 0,
+        "original_red": 0,
+        "red_rescued": 0,
+        "original_overhang": 0,
+        "overhang_rescued": 0,
+        "rescued": 1,
+        "by_layout": {
+          "12": 4,
+          "21": 4
+        }
+      },
+      "rule": {
+        "total": 8,
+        "strict": 8,
+        "retained": 6,
+        "changed": 2,
+        "abstained": 0,
+        "no_gate": 0,
+        "red": 0,
+        "original_strict": 7,
+        "spoiled": 0,
+        "original_red": 0,
+        "red_rescued": 0,
+        "original_overhang": 0,
+        "overhang_rescued": 0,
+        "rescued": 1,
+        "by_layout": {
+          "12": 4,
+          "21": 4
+        }
+      }
+    },
+    "balanced": {
+      "raw": {
+        "total": 32,
+        "strict": 8,
+        "retained": 32,
+        "changed": 0,
+        "abstained": 0,
+        "no_gate": 0,
+        "red": 15,
+        "original_strict": 8,
+        "spoiled": 0,
+        "original_red": 15,
+        "red_rescued": 0,
+        "original_overhang": 7,
+        "overhang_rescued": 0,
+        "rescued": 0,
+        "by_layout": {
+          "12": 4,
+          "21": 4
+        }
+      },
+      "wm": {
+        "total": 32,
+        "strict": 28,
+        "retained": 12,
+        "changed": 20,
+        "abstained": 0,
+        "no_gate": 0,
+        "red": 0,
+        "original_strict": 8,
+        "spoiled": 0,
+        "original_red": 15,
+        "red_rescued": 15,
+        "original_overhang": 7,
+        "overhang_rescued": 3,
+        "rescued": 20,
+        "by_layout": {
+          "12": 16,
+          "21": 12
+        }
+      },
+      "rule": {
+        "total": 32,
+        "strict": 32,
+        "retained": 8,
+        "changed": 24,
+        "abstained": 0,
+        "no_gate": 0,
+        "red": 0,
+        "original_strict": 8,
+        "spoiled": 0,
+        "original_red": 15,
+        "red_rescued": 15,
+        "original_overhang": 7,
+        "overhang_rescued": 7,
+        "rescued": 24,
+        "by_layout": {
+          "12": 16,
+          "21": 16
+        }
+      }
+    }
+  },
+  "by_kind": {
+    "black_center": {
+      "raw": {
+        "total": 8,
+        "strict": 8,
+        "retained": 8,
+        "changed": 0,
+        "abstained": 0,
+        "no_gate": 0,
+        "red": 0,
+        "original_strict": 8,
+        "spoiled": 0,
+        "original_red": 0,
+        "red_rescued": 0,
+        "original_overhang": 0,
+        "overhang_rescued": 0,
+        "rescued": 0,
+        "by_layout": {
+          "12": 4,
+          "21": 4
+        }
+      },
+      "wm": {
+        "total": 8,
+        "strict": 8,
+        "retained": 8,
+        "changed": 0,
+        "abstained": 0,
+        "no_gate": 0,
+        "red": 0,
+        "original_strict": 8,
+        "spoiled": 0,
+        "original_red": 0,
+        "red_rescued": 0,
+        "original_overhang": 0,
+        "overhang_rescued": 0,
+        "rescued": 0,
+        "by_layout": {
+          "12": 4,
+          "21": 4
+        }
+      },
+      "rule": {
+        "total": 8,
+        "strict": 8,
+        "retained": 8,
+        "changed": 0,
+        "abstained": 0,
+        "no_gate": 0,
+        "red": 0,
+        "original_strict": 8,
+        "spoiled": 0,
+        "original_red": 0,
+        "red_rescued": 0,
+        "original_overhang": 0,
+        "overhang_rescued": 0,
+        "rescued": 0,
+        "by_layout": {
+          "12": 4,
+          "21": 4
+        }
+      }
+    },
+    "black_edge": {
+      "raw": {
+        "total": 8,
+        "strict": 0,
+        "retained": 8,
+        "changed": 0,
+        "abstained": 0,
+        "no_gate": 0,
+        "red": 0,
+        "original_strict": 0,
+        "spoiled": 0,
+        "original_red": 0,
+        "red_rescued": 0,
+        "original_overhang": 7,
+        "overhang_rescued": 0,
+        "rescued": 0,
+        "by_layout": {
+          "12": 0,
+          "21": 0
+        }
+      },
+      "wm": {
+        "total": 8,
+        "strict": 4,
+        "retained": 4,
+        "changed": 4,
+        "abstained": 0,
+        "no_gate": 0,
+        "red": 0,
+        "original_strict": 0,
+        "spoiled": 0,
+        "original_red": 0,
+        "red_rescued": 0,
+        "original_overhang": 7,
+        "overhang_rescued": 3,
+        "rescued": 4,
+        "by_layout": {
+          "12": 4,
+          "21": 0
+        }
+      },
+      "rule": {
+        "total": 8,
+        "strict": 8,
+        "retained": 0,
+        "changed": 8,
+        "abstained": 0,
+        "no_gate": 0,
+        "red": 0,
+        "original_strict": 0,
+        "spoiled": 0,
+        "original_red": 0,
+        "red_rescued": 0,
+        "original_overhang": 7,
+        "overhang_rescued": 7,
+        "rescued": 8,
+        "by_layout": {
+          "12": 4,
+          "21": 4
+        }
+      }
+    },
+    "red_center": {
+      "raw": {
+        "total": 8,
+        "strict": 0,
+        "retained": 8,
+        "changed": 0,
+        "abstained": 0,
+        "no_gate": 0,
+        "red": 8,
+        "original_strict": 0,
+        "spoiled": 0,
+        "original_red": 8,
+        "red_rescued": 0,
+        "original_overhang": 0,
+        "overhang_rescued": 0,
+        "rescued": 0,
+        "by_layout": {
+          "12": 0,
+          "21": 0
+        }
+      },
+      "wm": {
+        "total": 8,
+        "strict": 8,
+        "retained": 0,
+        "changed": 8,
+        "abstained": 0,
+        "no_gate": 0,
+        "red": 0,
+        "original_strict": 0,
+        "spoiled": 0,
+        "original_red": 8,
+        "red_rescued": 8,
+        "original_overhang": 0,
+        "overhang_rescued": 0,
+        "rescued": 8,
+        "by_layout": {
+          "12": 4,
+          "21": 4
+        }
+      },
+      "rule": {
+        "total": 8,
+        "strict": 8,
+        "retained": 0,
+        "changed": 8,
+        "abstained": 0,
+        "no_gate": 0,
+        "red": 0,
+        "original_strict": 0,
+        "spoiled": 0,
+        "original_red": 8,
+        "red_rescued": 8,
+        "original_overhang": 0,
+        "overhang_rescued": 0,
+        "rescued": 8,
+        "by_layout": {
+          "12": 4,
+          "21": 4
+        }
+      }
+    },
+    "red_edge": {
+      "raw": {
+        "total": 8,
+        "strict": 0,
+        "retained": 8,
+        "changed": 0,
+        "abstained": 0,
+        "no_gate": 0,
+        "red": 7,
+        "original_strict": 0,
+        "spoiled": 0,
+        "original_red": 7,
+        "red_rescued": 0,
+        "original_overhang": 0,
+        "overhang_rescued": 0,
+        "rescued": 0,
+        "by_layout": {
+          "12": 0,
+          "21": 0
+        }
+      },
+      "wm": {
+        "total": 8,
+        "strict": 8,
+        "retained": 0,
+        "changed": 8,
+        "abstained": 0,
+        "no_gate": 0,
+        "red": 0,
+        "original_strict": 0,
+        "spoiled": 0,
+        "original_red": 7,
+        "red_rescued": 7,
+        "original_overhang": 0,
+        "overhang_rescued": 0,
+        "rescued": 8,
+        "by_layout": {
+          "12": 4,
+          "21": 4
+        }
+      },
+      "rule": {
+        "total": 8,
+        "strict": 8,
+        "retained": 0,
+        "changed": 8,
+        "abstained": 0,
+        "no_gate": 0,
+        "red": 0,
+        "original_strict": 0,
+        "spoiled": 0,
+        "original_red": 7,
+        "red_rescued": 7,
+        "original_overhang": 0,
+        "overhang_rescued": 0,
+        "rescued": 8,
+        "by_layout": {
+          "12": 4,
+          "21": 4
+        }
+      }
+    }
+  },
+  "balanced_predictions": {
+    "model": {
+      "n": 32,
+      "margin_mae_mm": 15.052414485993097,
+      "strict_brier": 0.13010728822227002,
+      "color_accuracy": 0.9375,
+      "final_xy_error_mm": 21.95472096657098
+    },
+    "prior": {
+      "n": 32,
+      "margin_mae_mm": 80.96060256719711,
+      "strict_brier": 0.3029257067718607,
+      "color_accuracy": 0.46875,
+      "final_xy_error_mm": 22.537913341982005
+    }
+  },
+  "balanced_physical_colors": {
+    "red": 15,
+    "black": 15,
+    "neither": 2
+  },
+  "physical_suffixes": 42,
+  "same_xy_color_swap": {
+    "n": 16,
+    "actual_flips": 15,
+    "correctly_followed": 15,
+    "opposite_image_hits": 30,
+    "opposite_image_n": 32,
+    "pairs": [
+      {
+        "scene": 253116,
+        "xy": [
+          -0.048385574221563116,
+          -0.21034663002320841
+        ],
+        "kind_black_far": "red_edge",
+        "predicted": [
+          "red",
+          "black"
+        ],
+        "observed": [
+          "red",
+          "black"
+        ],
+        "both_correct": true,
+        "opposite_image_fixed_joints": [
+          "black",
+          "red"
+        ],
+        "opposite_image_hits": 2,
+        "actual_flip": true,
+        "predicted_flip": true
+      },
+      {
+        "scene": 253116,
+        "xy": [
+          -0.21090109753473169,
+          -0.2081350709264865
+        ],
+        "kind_black_far": "black_edge",
+        "predicted": [
+          "black",
+          "red"
+        ],
+        "observed": [
+          "black",
+          "red"
+        ],
+        "both_correct": true,
+        "opposite_image_fixed_joints": [
+          "red",
+          "black"
+        ],
+        "opposite_image_hits": 2,
+        "actual_flip": true,
+        "predicted_flip": true
+      },
+      {
+        "scene": 253116,
+        "xy": [
+          -0.21110538698113374,
+          -0.24513450694681105
+        ],
+        "kind_black_far": "black_center",
+        "predicted": [
+          "black",
+          "red"
+        ],
+        "observed": [
+          "black",
+          "red"
+        ],
+        "both_correct": true,
+        "opposite_image_fixed_joints": [
+          "red",
+          "black"
+        ],
+        "opposite_image_hits": 2,
+        "actual_flip": true,
+        "predicted_flip": true
+      },
+      {
+        "scene": 253116,
+        "xy": [
+          -0.048589863667965166,
+          -0.24734606604353296
+        ],
+        "kind_black_far": "red_center",
+        "predicted": [
+          "red",
+          "black"
+        ],
+        "observed": [
+          "red",
+          "black"
+        ],
+        "both_correct": true,
+        "opposite_image_fixed_joints": [
+          "black",
+          "red"
+        ],
+        "opposite_image_hits": 2,
+        "actual_flip": true,
+        "predicted_flip": true
+      },
+      {
+        "scene": 253118,
+        "xy": [
+          -0.04615261611597335,
+          -0.22305454624040993
+        ],
+        "kind_black_far": "red_center",
+        "predicted": [
+          "red",
+          "black"
+        ],
+        "observed": [
+          "red",
+          "black"
+        ],
+        "both_correct": true,
+        "opposite_image_fixed_joints": [
+          "black",
+          "red"
+        ],
+        "opposite_image_hits": 2,
+        "actual_flip": true,
+        "predicted_flip": true
+      },
+      {
+        "scene": 253118,
+        "xy": [
+          -0.2100852347236417,
+          -0.22280624710102628
+        ],
+        "kind_black_far": "black_center",
+        "predicted": [
+          "black",
+          "red"
+        ],
+        "observed": [
+          "black",
+          "red"
+        ],
+        "both_correct": true,
+        "opposite_image_fixed_joints": [
+          "red",
+          "black"
+        ],
+        "opposite_image_hits": 2,
+        "actual_flip": true,
+        "predicted_flip": true
+      },
+      {
+        "scene": 253118,
+        "xy": [
+          -0.20945350088607848,
+          -0.259800853631688
+        ],
+        "kind_black_far": "black_edge",
+        "predicted": [
+          "black",
+          "red"
+        ],
+        "observed": [
+          "black",
+          "red"
+        ],
+        "both_correct": true,
+        "opposite_image_fixed_joints": [
+          "red",
+          "black"
+        ],
+        "opposite_image_hits": 2,
+        "actual_flip": true,
+        "predicted_flip": true
+      },
+      {
+        "scene": 253118,
+        "xy": [
+          -0.0455208822784101,
+          -0.26004915277107166
+        ],
+        "kind_black_far": "red_edge",
+        "predicted": [
+          "red",
+          "black"
+        ],
+        "observed": [
+          "red",
+          "black"
+        ],
+        "both_correct": true,
+        "opposite_image_fixed_joints": [
+          "black",
+          "red"
+        ],
+        "opposite_image_hits": 2,
+        "actual_flip": true,
+        "predicted_flip": true
+      },
+      {
+        "scene": 253121,
+        "xy": [
+          -0.22115180891275782,
+          -0.278914485698905
+        ],
+        "kind_black_far": "black_edge",
+        "predicted": [
+          "black",
+          "red"
+        ],
+        "observed": [
+          "neither",
+          "neither"
+        ],
+        "both_correct": false,
+        "opposite_image_fixed_joints": [
+          "red",
+          "black"
+        ],
+        "opposite_image_hits": 0,
+        "actual_flip": false,
+        "predicted_flip": true
+      },
+      {
+        "scene": 253121,
+        "xy": [
+          -0.05251859393572808,
+          -0.27883521539102496
+        ],
+        "kind_black_far": "red_edge",
+        "predicted": [
+          "red",
+          "black"
+        ],
+        "observed": [
+          "red",
+          "black"
+        ],
+        "both_correct": true,
+        "opposite_image_fixed_joints": [
+          "black",
+          "red"
+        ],
+        "opposite_image_hits": 2,
+        "actual_flip": true,
+        "predicted_flip": true
+      },
+      {
+        "scene": 253121,
+        "xy": [
+          -0.22121802493718168,
+          -0.24691455420775785
+        ],
+        "kind_black_far": "black_center",
+        "predicted": [
+          "black",
+          "red"
+        ],
+        "observed": [
+          "black",
+          "red"
+        ],
+        "both_correct": true,
+        "opposite_image_fixed_joints": [
+          "red",
+          "black"
+        ],
+        "opposite_image_hits": 2,
+        "actual_flip": true,
+        "predicted_flip": true
+      },
+      {
+        "scene": 253121,
+        "xy": [
+          -0.05258480996015198,
+          -0.24683528389987786
+        ],
+        "kind_black_far": "red_center",
+        "predicted": [
+          "red",
+          "black"
+        ],
+        "observed": [
+          "red",
+          "black"
+        ],
+        "both_correct": true,
+        "opposite_image_fixed_joints": [
+          "black",
+          "red"
+        ],
+        "opposite_image_hits": 2,
+        "actual_flip": true,
+        "predicted_flip": true
+      },
+      {
+        "scene": 253129,
+        "xy": [
+          -0.2154143940304927,
+          -0.2382827215444593
+        ],
+        "kind_black_far": "black_center",
+        "predicted": [
+          "black",
+          "red"
+        ],
+        "observed": [
+          "black",
+          "red"
+        ],
+        "both_correct": true,
+        "opposite_image_fixed_joints": [
+          "red",
+          "black"
+        ],
+        "opposite_image_hits": 2,
+        "actual_flip": true,
+        "predicted_flip": true
+      },
+      {
+        "scene": 253129,
+        "xy": [
+          -0.04349943657957449,
+          -0.21193110027137405
+        ],
+        "kind_black_far": "red_edge",
+        "predicted": [
+          "red",
+          "black"
+        ],
+        "observed": [
+          "red",
+          "black"
+        ],
+        "both_correct": true,
+        "opposite_image_fixed_joints": [
+          "black",
+          "red"
+        ],
+        "opposite_image_hits": 2,
+        "actual_flip": true,
+        "predicted_flip": true
+      },
+      {
+        "scene": 253129,
+        "xy": [
+          -0.2149812168635284,
+          -0.20628565359219186
+        ],
+        "kind_black_far": "black_edge",
+        "predicted": [
+          "black",
+          "red"
+        ],
+        "observed": [
+          "black",
+          "red"
+        ],
+        "both_correct": true,
+        "opposite_image_fixed_joints": [
+          "red",
+          "black"
+        ],
+        "opposite_image_hits": 2,
+        "actual_flip": true,
+        "predicted_flip": true
+      },
+      {
+        "scene": 253129,
+        "xy": [
+          -0.043932613746538826,
+          -0.2439281682236415
+        ],
+        "kind_black_far": "red_center",
+        "predicted": [
+          "red",
+          "black"
+        ],
+        "observed": [
+          "red",
+          "black"
+        ],
+        "both_correct": true,
+        "opposite_image_fixed_joints": [
+          "black",
+          "red"
+        ],
+        "opposite_image_hits": 2,
+        "actual_flip": true,
+        "predicted_flip": true
+      }
+    ]
+  }
+}

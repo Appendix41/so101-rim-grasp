@@ -1,0 +1,30 @@
+{
+  "mode": "pixel_goal_only_not_joint_actions",
+  "parent_sha256": "47b6b912801531884133ae631964b3e07ca01e275cf40a04d272ea2444b46a0c",
+  "sha256": "d7148f68e5f429cd5e63db582ac8d3c39ad264c8f107ee9647db603441f59916",
+  "center": [
+    141.02108764648438,
+    107.67921447753906
+  ],
+  "scale": [
+    25.981096267700195,
+    11.705174446105957
+  ],
+  "task": "Put the black open-top can on the black cloth.",
+  "readout_sha256": "17fe9d461e6502b93d19511ef7ff5304b6ef7f1cade91508a11783fd09b07d95",
+  "steps": 240,
+  "train_pairs": 19,
+  "views": 114,
+  "trainable_parameters": 643584,
+  "changed_tensors": 76,
+  "before_train_abs_error_px": [
+    25.860689163208008,
+    11.593761444091797
+  ],
+  "final_train_abs_error_px": [
+    1.2710508108139038,
+    1.185323715209961
+  ],
+  "trainer_sha256": "c7730fb8642db56c674b766eece838f691ed2cafd2cfd0cc70bb37146c44ea87",
+  "inputs_sha256": "461a7fe29437d95389a14d5ea6fbd95d42c8c266c4853816116c3a0f569b3675"
+}

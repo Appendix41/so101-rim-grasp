@@ -1,0 +1,22 @@
+{
+  "verified_steps": 1,
+  "parent_sha256": "d7148f68e5f429cd5e63db582ac8d3c39ad264c8f107ee9647db603441f59916",
+  "historic_first_step": {
+    "step": 1,
+    "loss": 0.6845837831497192,
+    "old": 13,
+    "new": 4,
+    "view": 2
+  },
+  "public_script_first_step": {
+    "step": 1,
+    "loss": 0.6845837831497192,
+    "pair": [
+      13,
+      23
+    ],
+    "frame": 2
+  },
+  "pair_index_note": "public pair is the concatenated bank index; the historic new index is local to the 8 new pairs",
+  "hardware_actions": 0
+}

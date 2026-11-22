@@ -1,0 +1,31 @@
+{
+  "task": "numbered boxes (NOT black-cloth task)",
+  "policy": "unadapted pi05 from home",
+  "matched_noise": true,
+  "rows": [
+    {
+      "seed": 131000,
+      "height_mm": 60,
+      "peak_upright_mm": 0.0,
+      "upright_lift_20mm": false,
+      "longest_upright_lift_s": 0.0,
+      "placed": false
+    },
+    {
+      "seed": 131030,
+      "height_mm": 90,
+      "peak_upright_mm": 0.0,
+      "upright_lift_20mm": false,
+      "longest_upright_lift_s": 0.0,
+      "placed": false
+    },
+    {
+      "seed": 131001,
+      "height_mm": 120,
+      "peak_upright_mm": 0.021315543770625472,
+      "upright_lift_20mm": false,
+      "longest_upright_lift_s": 0.0,
+      "placed": false
+    }
+  ]
+}

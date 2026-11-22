@@ -1,0 +1,69 @@
+{
+  "protocol": "cloth-full-goal-v1",
+  "split": "validation",
+  "scenes": [
+    253116,
+    253118,
+    253121,
+    253129
+  ],
+  "adapter_sha256": "47b6b912801531884133ae631964b3e07ca01e275cf40a04d272ea2444b46a0c",
+  "estimator_sha256": "00af61e3223fa16923aef60a971df43f43e3c8fb2499629cbc44dbf9dc13ff4b",
+  "detector_sha256": "1e47230b03feb3014fe722bf8d13e1ce351c14f5170f18a96b042e94fbf62a9e",
+  "wm_dir": "checkpoints/cloth-color-v1-d7148f68/runs/cloth-wm-fit-01",
+  "noise_seed": 246101,
+  "chunk": 50,
+  "control_hz": 15,
+  "physics_hz": 120,
+  "grip_rad": -0.17,
+  "gate_frames": [
+    30,
+    70
+  ],
+  "jaw_gate_rad": 0.12,
+  "branch_frames": 104,
+  "episode_frames": 320,
+  "rim_offset_m": [
+    0.049,
+    0
+  ],
+  "conditions": [
+    "paired_goals"
+  ],
+  "home_only_comparison": true,
+  "wrist_hand_calibration": true,
+  "design": "Prospective development only; frozen pi0.5 grasp and DAgger goal adapters, online grasp WM and terminal landing WM, no weight or threshold updates. One actual from-home grasp prefix per new scene and color swap. Natural task: raw student, WM using anonymous RGB regions, and an RGB rule that keeps the student on teacher failure. Controlled injection: the harness uses surveyed patch poses (not the colors) to supply both patch centers and two equally displaced edge points. Shuffle the same four XYs independently of color; rotate all four as the preferred proposal. WM sees only the pre-action RGB, joints, calibration and anonymous XYs. Rule sees the same menu; keep a verified proposal, otherwise select the inset option closest to the RGB expert center, abstain if no safe option, retain the original on missing expert. Physically execute all four probes, plus all distinct natural or abstention commands. Identical selected actions at a handoff share one measured suffix. Rotate the uninterrupted suffix, restore physical state, not contact cache, for others. Score all scheduled handoffs and report failed grasps, red choices, safe points spoiled, edge rescues, retention and abstention separately. No test runs or real hardware.",
+  "geometry": "shifted_scene",
+  "goal_checkpoint": "checkpoints/cloth-dagger-r1-9549e9c8-7a416662/runs/cloth-dagger-fit-01/placement_goal_adapter",
+  "goal_sha256": "9549e9c87ded3fe2abb8513d9c79549aaf712392c30b563999b11d718f939d94",
+  "wm_sha256": "ee5fba120342b01a29830918617fd45538bb91e06827af70fb41ff7d5ce726ea",
+  "dagger_round": 1,
+  "previous_sha256": "d7148f68e5f429cd5e63db582ac8d3c39ad264c8f107ee9647db603441f59916",
+  "previous_goal": "checkpoints/cloth-color-v1-d7148f68/runs/cloth-wm-color-fit-01/placement_goal_adapter",
+  "placement_methods": [
+    "raw",
+    "wm",
+    "rule"
+  ],
+  "world_model": {
+    "neighbors": 4,
+    "student_preference": 0.12,
+    "min_strict": 0.45,
+    "min_black": 0.6
+  },
+  "registered_sha256": "eeff569bd68cb91bd06c645fca664741560fa573b5a697fa691d9fe3b8fed337",
+  "landing_dir": "checkpoints/cloth-dagger-r1-9549e9c8-7a416662/runs/cloth-landing-fit-01",
+  "landing_sha256": "7a416662e5e16757f158d80dfe091c7a684b69a76ff80843db307cc775f9b98b",
+  "grasp_checkpoint": "checkpoints/cloth-color-v1-d7148f68/runs/cloth-frozen-v1-01/pretrained_model",
+  "candidate_challenge": 1,
+  "edge_y_mm": [
+    37,
+    -37,
+    -32,
+    32
+  ],
+  "permutation_seed": 253001,
+  "parent_protocol_sha256": "43cbb4296497e75f50034a23c131aa96c34cfd03359f5ee65e02a164c19069d1",
+  "challenge_sha256": "d9cab1bc8b3eb67919ccc4d30be16f5ccd17704da298688d5ac4e1832db1e182",
+  "challenge_code_sha256": "9d8b4061375cd8a6a94a762b6e3db2118b2afe0705a57497a429b7d7318fb202"
+}

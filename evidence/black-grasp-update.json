@@ -1,0 +1,11 @@
+{
+  "steps": 192,
+  "trainable": 643584,
+  "changed_tensors": 76,
+  "parent_sha256": "cd3b57887b195fccd817e1fcbbe7c764ce1aa379fa342bcb64972f4378061110",
+  "sha256": "47b6b912801531884133ae631964b3e07ca01e275cf40a04d272ea2444b46a0c",
+  "first32": 0.23718144954182208,
+  "last32": 0.14612050011055544,
+  "unique_episodes": 12,
+  "expert_control_frames": 2400
+}
