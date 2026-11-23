@@ -1,25 +1,39 @@
-# SO-101 Rim Grasp
+# SO-101 Can-Rim Manipulation
 
-A single-GPU study of getting a low-cost arm to pinch the wall of an open can, lift it, and put the **whole base** on a black cloth instead of a red distractor. The instruction always targets black; the cloths swap sides. All task scores here are from **Isaac Sim development layouts**. [Physical robot trials](../real/README.md) are pending.
+This is a single-GPU Isaac Sim study of a thin-rim grasp and black-cloth placement task using task-specific π0.5 LoRA modules, imitation learning, and DAgger.
 
-[Watch the 21-second paired replay](../media/student-vs-world-model.mp4). The student picked the right color but left 31.1 mm of the can over the boundary. An action-conditioned model evaluated an alternative before release; the same carry primitive then placed the can with 20.9 mm of clearance.
+## Policy
 
-| What changed? | What happened? |
-|---|---|
-| Grasp recovery | Continuing the grasp LoRA yielded 1/8 sustained lifts. Always performing a dual-camera visual regrasp yielded 8/8; a learned selector also scored 8/8 and chose regrasp every time. |
-| Decision-point DAgger | A second π0.5 LoRA predicts an overhead goal pixel. An RGB teacher labeled states visited by the learner. On eight matched starts, v1 scored 4/8 and the updated student 7/8. It scored 7/8 again in a second group. |
-| Online placement checking | With the same grasp stack, independent student goals scored **14/16**, and adding the placement outcome model scored **16/16**. Eight layouts, each color-swapped, not 16 independent layouts. |
-| Deliberate stress test | Given 32 injected starting proposals, direct execution scored 8/32, the learned selector 28/32, and the simple inset-boundary rule **32/32**. The learned model missed four near-side overhangs. |
+The system switches between two task-specific adapters on a frozen π0.5 base:
 
-## Two lightweight world models
+- **Grasp LoRA `af182185`:** predicts joint-action chunks for approaching, closing, and lifting the can.
+- **Placement LoRA `9549e9c8`:** predicts an overhead pixel goal for the black cloth.
+- **Execution:** a fixed geometric IK controller carries, lowers, releases, and retreats. The placement adapter does not output joint trajectories.
 
-Here, a *world model* is a **task-specific, action-conditioned outcome predictor**. The visual teacher labels what the arm *should* do. These models instead learn from what *happened* when a candidate was executed in simulation, and compare candidates at inference time.
+DAgger labels states visited by the learner, then mixes successful expert corrections with verified replay. The grasp update contains 5 prior corrections, 17 new corrections, and 116 capability replay windows. It updates rank-8, alpha-16 LoRA parameters for 80 steps; failed expert branches are excluded as action targets. The placement update uses 19 earlier paired examples plus 8 new on-policy layout pairs, trained for 192 steps.
 
-- **[Grasp: continue or regrasp?](../src/cloth_lift_wm.py)** At jaw closure, the model reads overhead and wrist RGB, joint positions and velocities, and their recent changes. Using 32 grasp trajectories, it forecasts the can’s clearance above the table and tilt over the next 6.9 seconds for two skills: continue π0.5 or run the visual regrasp. The controller chooses a skill; the model does not generate the regrasp motion.
-- **[Placement: will the whole base fit?](../src/cloth_landing_wm.py)** Before transport, the model reads overhead color features around each proposed point and the current joint positions. From 39 distinct simulated placements, it estimates where the can center will land (position and surface: black cloth, red cloth, or neither), the minimum whole-base margin on the black cloth over the final two seconds, and a strict-success score. A negative margin means overhang. The controller ranks the π0.5 point against visual alternatives or holds the can if none qualifies. The same IK routine carries, lowers, releases and retreats.
+## Results
 
-Both use weighted nearest neighbors, closer to a [skill effect model](https://arxiv.org/abs/2109.08771) than a general-purpose simulator. Neither generates video, rolls out arbitrary joint commands, or supplies reward updates to π0.5. A [separate online RL-token experiment](../evidence/rl-side-study.json) did not improve sustained grasping.
+| Evaluation | Parent | Updated policy |
+|---|---:|---:|
+| Grasp end-hold, 8 new development conditions | 6/8 | **7/8** |
+| Grasp end-hold, 8 old short-can diagnostics | 1/8 | **4/8** |
+| Grasp end-hold, 24 previously seen conditions | 12/24 | **14/24** |
+| Placement DAgger, 8 matched starts | 4/8 | **7/8** |
 
-**Released:** [six simulation videos](../media), [train pairs and development replay inputs](../data/README.md), [per-trial audits](../evidence), [two fitted outcome models](../models), [goal-LoRA training](../training/train_goal.py), and a [simulation-only grasp baseline](../sim/grasp_sweep.py). `python tools/audit.py` reproduces the counts without dependencies; `python tools/replay_choices.py` reruns the selector using the original development images and logged student proposals. See [reproduction](reproduce.md) and [upstream materials / licensing](../NOTICE.md).
+The grasp candidate has regressions as well as gains and is not claimed to dominate its parent. In a separate 16-condition full-task comparison with world models and scripted visual regrasp disabled, first sustained lift was 15/16 for both grasp adapters; can retention at the IK handoff increased from 3/16 to 9/16, and strict full-task completion from 1/16 to 2/16. Placement motion still used geometric IK.
 
-**Limits:** the simulated can has a 2 mm **rigid** wall. This tests contact and recovery, not deforming or crushing a real shell. The main evaluation does not establish arbitrary color-instruction following, robustness to new can heights, or real-world success.
+## Replays
+
+- [Full-task success](../media/replays/pick-place.gif) · [MP4](../media/replays/pick-place.mp4)
+- [Full-task overhang failure](../media/replays/pick-place-overhang.gif) · [MP4](../media/replays/pick-place-overhang.mp4)
+- [Grasp recovery pair](../media/replays/grasp-recovery.gif) · [MP4](../media/replays/grasp-recovery.mp4)
+- [Grasp regression pair](../media/replays/grasp-regression.gif) · [MP4](../media/replays/grasp-regression.mp4)
+- [Placement color correction](../media/replays/placement-color.gif) · [MP4](../media/replays/placement-color.mp4)
+- [Placement edge check](../media/replays/placement-margin.gif) · [MP4](../media/replays/placement-margin.mp4)
+
+All clips show simulation. The placement-only clips start from an expert-assisted visual-grasp state and compare separately replayed placement branches.
+
+## Scope
+
+The robot is controlled at 15 Hz with 120 Hz physics; 50 is the action-chunk horizon, not the control frequency. The reported 10.76 GiB peak is for the training process, not a combined simulator-and-training measurement. No physical-robot success has been recorded for this task. See [experiments and ablations](experiments.md), [reproduction limits](reproduce.md), and [hardware trial status](../real/README.md).

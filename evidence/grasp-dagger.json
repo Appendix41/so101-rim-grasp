@@ -1,0 +1,685 @@
+{
+  "run": "cloth-first-grasp-contact-dagger-02",
+  "parent_sha256": "ddfcb59334bdc10bea3a0fc7a74db73dc089dcf16026f3702935a71a373b89a8",
+  "candidate_sha256": "af182185ae8d62653ebd9dde719c88100d27bbba349306c8e0bf7267b5a34dcb",
+  "unchanged_placement_sha256": "9549e9c87ded3fe2abb8513d9c79549aaf712392c30b563999b11d718f939d94",
+  "training": {
+    "windows": {
+      "prior_corrections": 5,
+      "current_corrections": 17,
+      "capability_replays": 116,
+      "total": 138
+    },
+    "steps": 80,
+    "batch_size": 4,
+    "lr": 1.5e-05,
+    "rank": 8,
+    "alpha": 16,
+    "trainable_parameters": 643584,
+    "corrected_frames": 683,
+    "peak_torch_gib": 10.762674808502197,
+    "frozen_base": true,
+    "batch_corrections": 2,
+    "batch_replays": 2,
+    "expert_jaw_supervision": false,
+    "failed_expert_branches_as_targets": false,
+    "replay_policy": "Only verified successful replay windows and verified pre-failure lift prefixes; no failed expert branch is used as an action target.",
+    "loss": "per-window mean squared normalized action error; 2 expert windows + 2 capability replay; constant lr"
+  },
+  "audit_source_sha256": "574a55feff893817c73bc898558fc0e6e327d8ed4d6b0e935247b0b0d77a3cc3",
+  "control_hz": 15,
+  "physics_hz": 120,
+  "action_chunk_steps": 50,
+  "world_model": false,
+  "expert_at_evaluation": false,
+  "hardware": false,
+  "test_accessed": false,
+  "panels": {
+    "fresh": [
+      {
+        "id": "H60_267300_12",
+        "height_mm": 60,
+        "scene": 267300,
+        "layout": "12",
+        "parent": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        },
+        "candidate": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        }
+      },
+      {
+        "id": "H60_267300_21",
+        "height_mm": 60,
+        "scene": 267300,
+        "layout": "21",
+        "parent": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        },
+        "candidate": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        }
+      },
+      {
+        "id": "H60_267310_21",
+        "height_mm": 60,
+        "scene": 267310,
+        "layout": "21",
+        "parent": {
+          "sustained_lift": false,
+          "end_hold": false,
+          "status": "closed_no_lift"
+        },
+        "candidate": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        }
+      },
+      {
+        "id": "H60_267310_12",
+        "height_mm": 60,
+        "scene": 267310,
+        "layout": "12",
+        "parent": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        },
+        "candidate": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        }
+      },
+      {
+        "id": "H90_267311_12",
+        "height_mm": 90,
+        "scene": 267311,
+        "layout": "12",
+        "parent": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        },
+        "candidate": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        }
+      },
+      {
+        "id": "H90_267311_21",
+        "height_mm": 90,
+        "scene": 267311,
+        "layout": "21",
+        "parent": {
+          "sustained_lift": true,
+          "end_hold": false,
+          "status": "lift_then_table_return_review"
+        },
+        "candidate": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        }
+      },
+      {
+        "id": "H120_267333_21",
+        "height_mm": 120,
+        "scene": 267333,
+        "layout": "21",
+        "parent": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        },
+        "candidate": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        }
+      },
+      {
+        "id": "H120_267333_12",
+        "height_mm": 120,
+        "scene": 267333,
+        "layout": "12",
+        "parent": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        },
+        "candidate": {
+          "sustained_lift": false,
+          "end_hold": false,
+          "status": "partial_or_transient_review"
+        }
+      }
+    ],
+    "diagnostic": [
+      {
+        "id": "H60_266307_12",
+        "height_mm": 60,
+        "scene": 266307,
+        "layout": "12",
+        "parent": {
+          "sustained_lift": true,
+          "end_hold": false,
+          "status": "sustained_lift"
+        },
+        "candidate": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        }
+      },
+      {
+        "id": "H60_266307_21",
+        "height_mm": 60,
+        "scene": 266307,
+        "layout": "21",
+        "parent": {
+          "sustained_lift": false,
+          "end_hold": false,
+          "status": "closed_no_lift"
+        },
+        "candidate": {
+          "sustained_lift": true,
+          "end_hold": false,
+          "status": "sustained_lift"
+        }
+      },
+      {
+        "id": "H60_266320_21",
+        "height_mm": 60,
+        "scene": 266320,
+        "layout": "21",
+        "parent": {
+          "sustained_lift": false,
+          "end_hold": false,
+          "status": "closed_no_lift"
+        },
+        "candidate": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        }
+      },
+      {
+        "id": "H60_266320_12",
+        "height_mm": 60,
+        "scene": 266320,
+        "layout": "12",
+        "parent": {
+          "sustained_lift": false,
+          "end_hold": false,
+          "status": "closed_no_lift"
+        },
+        "candidate": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        }
+      },
+      {
+        "id": "H60_266321_12",
+        "height_mm": 60,
+        "scene": 266321,
+        "layout": "12",
+        "parent": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        },
+        "candidate": {
+          "sustained_lift": true,
+          "end_hold": false,
+          "status": "sustained_lift"
+        }
+      },
+      {
+        "id": "H60_266321_21",
+        "height_mm": 60,
+        "scene": 266321,
+        "layout": "21",
+        "parent": {
+          "sustained_lift": false,
+          "end_hold": false,
+          "status": "partial_or_transient_review"
+        },
+        "candidate": {
+          "sustained_lift": true,
+          "end_hold": false,
+          "status": "sustained_lift"
+        }
+      },
+      {
+        "id": "H60_266336_21",
+        "height_mm": 60,
+        "scene": 266336,
+        "layout": "21",
+        "parent": {
+          "sustained_lift": false,
+          "end_hold": false,
+          "status": "partial_or_transient_review"
+        },
+        "candidate": {
+          "sustained_lift": true,
+          "end_hold": false,
+          "status": "sustained_lift"
+        }
+      },
+      {
+        "id": "H60_266336_12",
+        "height_mm": 60,
+        "scene": 266336,
+        "layout": "12",
+        "parent": {
+          "sustained_lift": false,
+          "end_hold": false,
+          "status": "partial_or_transient_review"
+        },
+        "candidate": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        }
+      }
+    ],
+    "seen": [
+      {
+        "id": "H90_264800_12",
+        "height_mm": 90,
+        "scene": 264800,
+        "layout": "12",
+        "parent": {
+          "sustained_lift": true,
+          "end_hold": false,
+          "status": "sustained_lift"
+        },
+        "candidate": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        }
+      },
+      {
+        "id": "H90_264800_21",
+        "height_mm": 90,
+        "scene": 264800,
+        "layout": "21",
+        "parent": {
+          "sustained_lift": true,
+          "end_hold": false,
+          "status": "sustained_lift"
+        },
+        "candidate": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        }
+      },
+      {
+        "id": "H90_264804_21",
+        "height_mm": 90,
+        "scene": 264804,
+        "layout": "21",
+        "parent": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        },
+        "candidate": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        }
+      },
+      {
+        "id": "H90_264804_12",
+        "height_mm": 90,
+        "scene": 264804,
+        "layout": "12",
+        "parent": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        },
+        "candidate": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        }
+      },
+      {
+        "id": "H90_264807_12",
+        "height_mm": 90,
+        "scene": 264807,
+        "layout": "12",
+        "parent": {
+          "sustained_lift": false,
+          "end_hold": false,
+          "status": "closed_no_lift"
+        },
+        "candidate": {
+          "sustained_lift": false,
+          "end_hold": false,
+          "status": "closed_no_lift"
+        }
+      },
+      {
+        "id": "H90_264807_21",
+        "height_mm": 90,
+        "scene": 264807,
+        "layout": "21",
+        "parent": {
+          "sustained_lift": false,
+          "end_hold": false,
+          "status": "closed_no_lift"
+        },
+        "candidate": {
+          "sustained_lift": false,
+          "end_hold": false,
+          "status": "closed_no_lift"
+        }
+      },
+      {
+        "id": "H90_264808_21",
+        "height_mm": 90,
+        "scene": 264808,
+        "layout": "21",
+        "parent": {
+          "sustained_lift": true,
+          "end_hold": false,
+          "status": "lift_then_table_return_review"
+        },
+        "candidate": {
+          "sustained_lift": true,
+          "end_hold": false,
+          "status": "lift_then_table_return_review"
+        }
+      },
+      {
+        "id": "H90_264808_12",
+        "height_mm": 90,
+        "scene": 264808,
+        "layout": "12",
+        "parent": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        },
+        "candidate": {
+          "sustained_lift": true,
+          "end_hold": false,
+          "status": "sustained_lift"
+        }
+      },
+      {
+        "id": "H90_264809_12",
+        "height_mm": 90,
+        "scene": 264809,
+        "layout": "12",
+        "parent": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        },
+        "candidate": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        }
+      },
+      {
+        "id": "H90_264809_21",
+        "height_mm": 90,
+        "scene": 264809,
+        "layout": "21",
+        "parent": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        },
+        "candidate": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        }
+      },
+      {
+        "id": "H90_264810_21",
+        "height_mm": 90,
+        "scene": 264810,
+        "layout": "21",
+        "parent": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        },
+        "candidate": {
+          "sustained_lift": true,
+          "end_hold": false,
+          "status": "lift_then_table_return_review"
+        }
+      },
+      {
+        "id": "H90_264810_12",
+        "height_mm": 90,
+        "scene": 264810,
+        "layout": "12",
+        "parent": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        },
+        "candidate": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        }
+      },
+      {
+        "id": "H90_264811_12",
+        "height_mm": 90,
+        "scene": 264811,
+        "layout": "12",
+        "parent": {
+          "sustained_lift": false,
+          "end_hold": false,
+          "status": "closed_no_lift"
+        },
+        "candidate": {
+          "sustained_lift": false,
+          "end_hold": false,
+          "status": "closed_no_lift"
+        }
+      },
+      {
+        "id": "H90_264811_21",
+        "height_mm": 90,
+        "scene": 264811,
+        "layout": "21",
+        "parent": {
+          "sustained_lift": false,
+          "end_hold": false,
+          "status": "closed_no_lift"
+        },
+        "candidate": {
+          "sustained_lift": false,
+          "end_hold": false,
+          "status": "closed_no_lift"
+        }
+      },
+      {
+        "id": "H90_264812_21",
+        "height_mm": 90,
+        "scene": 264812,
+        "layout": "21",
+        "parent": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        },
+        "candidate": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        }
+      },
+      {
+        "id": "H90_264812_12",
+        "height_mm": 90,
+        "scene": 264812,
+        "layout": "12",
+        "parent": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        },
+        "candidate": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        }
+      },
+      {
+        "id": "H60_264800_12",
+        "height_mm": 60,
+        "scene": 264800,
+        "layout": "12",
+        "parent": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        },
+        "candidate": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        }
+      },
+      {
+        "id": "H60_264800_21",
+        "height_mm": 60,
+        "scene": 264800,
+        "layout": "21",
+        "parent": {
+          "sustained_lift": true,
+          "end_hold": false,
+          "status": "lift_then_table_return_review"
+        },
+        "candidate": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        }
+      },
+      {
+        "id": "H60_264804_21",
+        "height_mm": 60,
+        "scene": 264804,
+        "layout": "21",
+        "parent": {
+          "sustained_lift": false,
+          "end_hold": false,
+          "status": "closed_no_lift"
+        },
+        "candidate": {
+          "sustained_lift": true,
+          "end_hold": false,
+          "status": "lift_then_table_return_review"
+        }
+      },
+      {
+        "id": "H60_264804_12",
+        "height_mm": 60,
+        "scene": 264804,
+        "layout": "12",
+        "parent": {
+          "sustained_lift": false,
+          "end_hold": false,
+          "status": "closed_no_lift"
+        },
+        "candidate": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        }
+      },
+      {
+        "id": "H120_264800_12",
+        "height_mm": 120,
+        "scene": 264800,
+        "layout": "12",
+        "parent": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        },
+        "candidate": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        }
+      },
+      {
+        "id": "H120_264800_21",
+        "height_mm": 120,
+        "scene": 264800,
+        "layout": "21",
+        "parent": {
+          "sustained_lift": true,
+          "end_hold": false,
+          "status": "lift_then_table_return_review"
+        },
+        "candidate": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        }
+      },
+      {
+        "id": "H120_264804_21",
+        "height_mm": 120,
+        "scene": 264804,
+        "layout": "21",
+        "parent": {
+          "sustained_lift": true,
+          "end_hold": true,
+          "status": "sustained_lift"
+        },
+        "candidate": {
+          "sustained_lift": false,
+          "end_hold": false,
+          "status": "partial_or_transient_review"
+        }
+      },
+      {
+        "id": "H120_264804_12",
+        "height_mm": 120,
+        "scene": 264804,
+        "layout": "12",
+        "parent": {
+          "sustained_lift": true,
+          "end_hold": false,
+          "status": "lift_then_table_return_review"
+        },
+        "candidate": {
+          "sustained_lift": false,
+          "end_hold": false,
+          "status": "partial_or_transient_review"
+        }
+      }
+    ]
+  }
+}

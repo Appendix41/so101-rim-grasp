@@ -46,5 +46,173 @@
     "decoded_frames": 904,
     "duration_s": 60.267,
     "codec": "h264"
+  },
+  "replays/grasp-recovery.gif": {
+    "width": 588,
+    "height": 495,
+    "decoded_frames": 75,
+    "duration_s": 10.0,
+    "codec": "gif",
+    "video": "replays/grasp-recovery.mp4"
+  },
+  "replays/grasp-recovery.mp4": {
+    "width": 644,
+    "height": 542,
+    "fps": 15,
+    "decoded_frames": 150,
+    "duration_s": 10.0,
+    "codec": "h264",
+    "source": {
+      "run": "cloth-first-grasp-contact-dagger-02",
+      "case": "H60_267310_21",
+      "adapters_left_to_right": [
+        "ddfcb593",
+        "af182185"
+      ],
+      "world_model": false,
+      "cameras_top_to_bottom": [
+        "wrist",
+        "overhead"
+      ]
+    }
+  },
+  "replays/grasp-regression.gif": {
+    "width": 588,
+    "height": 495,
+    "decoded_frames": 75,
+    "duration_s": 10.0,
+    "codec": "gif",
+    "video": "replays/grasp-regression.mp4"
+  },
+  "replays/grasp-regression.mp4": {
+    "width": 644,
+    "height": 542,
+    "fps": 15,
+    "decoded_frames": 150,
+    "duration_s": 10.0,
+    "codec": "h264",
+    "source": {
+      "run": "cloth-first-grasp-contact-dagger-02",
+      "case": "H120_267333_12",
+      "adapters_left_to_right": [
+        "ddfcb593",
+        "af182185"
+      ],
+      "world_model": false,
+      "cameras_top_to_bottom": [
+        "wrist",
+        "overhead"
+      ]
+    }
+  },
+  "replays/pick-place.gif": {
+    "width": 588,
+    "height": 274,
+    "decoded_frames": 161,
+    "duration_s": 21.4,
+    "codec": "gif",
+    "video": "replays/pick-place.mp4"
+  },
+  "replays/pick-place.mp4": {
+    "width": 644,
+    "height": 300,
+    "fps": 15,
+    "decoded_frames": 321,
+    "duration_s": 21.4,
+    "codec": "h264",
+    "source": {
+      "run": "cloth-grasp-lora-ab-01",
+      "case": "/272037/familiar/12/black/no_wm",
+      "grasp_adapter": "af182185",
+      "placement_adapter": "9549e9c8",
+      "placement_execution": "geometric IK",
+      "world_model": false,
+      "scripted_regrasp": false,
+      "strict_complete": true
+    }
+  },
+  "replays/pick-place-overhang.gif": {
+    "width": 588,
+    "height": 274,
+    "decoded_frames": 161,
+    "duration_s": 21.4,
+    "codec": "gif",
+    "video": "replays/pick-place-overhang.mp4"
+  },
+  "replays/pick-place-overhang.mp4": {
+    "width": 644,
+    "height": 300,
+    "fps": 15,
+    "decoded_frames": 321,
+    "duration_s": 21.4,
+    "codec": "h264",
+    "source": {
+      "run": "cloth-grasp-lora-ab-01",
+      "case": "/272037/translated/12/black/no_wm",
+      "grasp_adapter": "af182185",
+      "placement_adapter": "9549e9c8",
+      "placement_execution": "geometric IK",
+      "world_model": false,
+      "scripted_regrasp": false,
+      "strict_complete": false
+    }
+  },
+  "replays/placement-color.gif": {
+    "width": 588,
+    "height": 292,
+    "decoded_frames": 86,
+    "duration_s": 12.33,
+    "codec": "gif",
+    "video": "replays/placement-color.mp4"
+  },
+  "replays/placement-color.mp4": {
+    "width": 644,
+    "height": 320,
+    "fps": 15,
+    "decoded_frames": 185,
+    "duration_s": 12.333,
+    "codec": "h264",
+    "source": {
+      "run": "cloth-dagger-validation-01",
+      "case": "251714/21",
+      "from": "shared held-can state",
+      "grasp_adapter": "47b6b912",
+      "grasp_wm_selected_scripted_regrasp": true,
+      "branches_left_to_right": [
+        "previous",
+        "dagger"
+      ],
+      "placement_execution": "geometric IK",
+      "common_first_second": "last camera frame of the shared visual-regrasp branch"
+    }
+  },
+  "replays/placement-margin.gif": {
+    "width": 588,
+    "height": 292,
+    "decoded_frames": 85,
+    "duration_s": 12.27,
+    "codec": "gif",
+    "video": "replays/placement-margin.mp4"
+  },
+  "replays/placement-margin.mp4": {
+    "width": 644,
+    "height": 320,
+    "fps": 15,
+    "decoded_frames": 184,
+    "duration_s": 12.267,
+    "codec": "h264",
+    "source": {
+      "run": "cloth-dagger-validation-01",
+      "case": "251711/12",
+      "from": "shared held-can state",
+      "grasp_adapter": "47b6b912",
+      "grasp_wm_selected_scripted_regrasp": true,
+      "branches_left_to_right": [
+        "dagger",
+        "landing_wm"
+      ],
+      "placement_execution": "geometric IK",
+      "common_first_second": "last camera frame of the shared visual-regrasp branch"
+    }
   }
 }
