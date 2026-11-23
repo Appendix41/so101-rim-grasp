@@ -25,6 +25,7 @@ The grasp candidate has regressions as well as gains and is not claimed to domin
 
 ## Replays
 
+- [Matched full-task DAgger comparison](../media/replays/dagger-full-task-pair.gif) · [MP4](../media/replays/dagger-full-task-pair.mp4)
 - [Full-task success](../media/replays/pick-place.gif) · [MP4](../media/replays/pick-place.mp4)
 - [Full-task overhang failure](../media/replays/pick-place-overhang.gif) · [MP4](../media/replays/pick-place-overhang.mp4)
 - [Grasp recovery pair](../media/replays/grasp-recovery.gif) · [MP4](../media/replays/grasp-recovery.mp4)
@@ -32,7 +33,7 @@ The grasp candidate has regressions as well as gains and is not claimed to domin
 - [Placement color correction](../media/replays/placement-color.gif) · [MP4](../media/replays/placement-color.mp4)
 - [Placement edge check](../media/replays/placement-margin.gif) · [MP4](../media/replays/placement-margin.mp4)
 
-All clips show simulation. The placement-only clips start from an expert-assisted visual-grasp state and compare separately replayed placement branches.
+All clips show simulation. The matched full-task pair uses validation scene 272037/layout 12, starts from the same joint state, and changes only the grasp adapter; the placement LoRA and geometric IK are fixed. It is one illustrative pair, not the aggregate success rate. The placement-only clips start from an expert-assisted visual-grasp state and compare separately replayed placement branches.
 
 ## Scope
 

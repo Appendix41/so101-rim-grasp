@@ -1,5 +1,6 @@
 import contextlib
 import io
+import json
 from pathlib import Path
 import sys
 import unittest
@@ -16,6 +17,22 @@ from placement_scene import scene_split
 
 
 class ReleaseRegression(unittest.TestCase):
+    def test_paired_full_task_replay(self):
+        index = json.loads((ROOT / "media/index.json").read_text())
+        gif = index["replays/dagger-full-task-pair.gif"]
+        video = index["replays/dagger-full-task-pair.mp4"]
+        self.assertEqual(gif["video"], "replays/dagger-full-task-pair.mp4")
+        self.assertTrue((ROOT / "media" / gif["video"]).is_file())
+        self.assertTrue((ROOT / "media/replays/dagger-full-task-pair.mp4").is_file())
+        source = video["source"]
+        self.assertEqual(source["adapters_left_to_right"], ["ddfcb593", "af182185"])
+        self.assertEqual(source["strict_complete_left_to_right"], [False, True])
+        self.assertEqual(source["placement_adapter"], "9549e9c8")
+        self.assertFalse(source["world_model"])
+        self.assertFalse(source["human_takeover"])
+        self.assertTrue(source["same_initial_joint_state"])
+        self.assertTrue(source["illustrative_pair_not_aggregate"])
+
     def test_physical_counts(self):
         text = io.StringIO()
         with contextlib.redirect_stdout(text):

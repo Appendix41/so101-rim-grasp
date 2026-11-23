@@ -105,6 +105,53 @@
       ]
     }
   },
+  "replays/dagger-full-task-pair.gif": {
+    "width": 1200,
+    "height": 338,
+    "decoded_frames": 161,
+    "duration_s": 21.46,
+    "codec": "gif",
+    "video": "replays/dagger-full-task-pair.mp4"
+  },
+  "replays/dagger-full-task-pair.mp4": {
+    "width": 1280,
+    "height": 360,
+    "fps": 15,
+    "decoded_frames": 321,
+    "duration_s": 21.4,
+    "codec": "h264",
+    "source": {
+      "run": "cloth-grasp-lora-ab-01",
+      "case": "/272037/familiar/12/black/no_wm",
+      "adapters_left_to_right": [
+        "ddfcb593",
+        "af182185"
+      ],
+      "placement_adapter": "9549e9c8",
+      "placement_execution": "geometric IK",
+      "world_model": false,
+      "scripted_regrasp": false,
+      "human_takeover": false,
+      "strict_complete_left_to_right": [
+        false,
+        true
+      ],
+      "outcome_left_to_right": [
+        "lost_before_handoff",
+        "success"
+      ],
+      "same_initial_joint_state": true,
+      "initial_camera_mean_absolute_error_rgb": {
+        "overhead": 0.142,
+        "wrist": 0.013
+      },
+      "illustrative_pair_not_aggregate": true,
+      "cameras_within_each_panel": [
+        "overhead",
+        "wrist"
+      ]
+    }
+  },
   "replays/pick-place.gif": {
     "width": 588,
     "height": 274,

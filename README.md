@@ -22,11 +22,12 @@
 
 ## 仿真回放
 
-以下均为仿真。抓取对比 GIF 左侧是父版、右侧是 DAgger 候选。完整任务回放使用 `af182185 + 9549e9c8 + IK`，未使用世界模型、视觉脚本重抓或人工接管。
+以下均为 Isaac Sim 仿真。首个 GIF 是同一验证工况的完整抓放对照：左侧为 DAgger 前抓取 LoRA `ddfcb593`，交接前未能持稳罐体；右侧为 DAgger 后 `af182185`，严格完成黑布抓放。两侧起始关节状态相同，放置 LoRA `9549e9c8` 与几何 IK 固定；无世界模型、视觉脚本重抓或人工接管。这是一个代表性配对案例，不代表总体成功率；16 工况完整任务结果为 **1/16 → 2/16**。
 
 | GIF | 内容 |
 |---|---|
-| [![完整抓放成功](media/replays/pick-place.gif)](media/replays/pick-place.mp4) | 抓取、保持至交接、放入黑布并松爪 |
+| [![完整抓放 DAgger 前后对照](media/replays/dagger-full-task-pair.gif)](media/replays/dagger-full-task-pair.mp4) | 左：`ddfcb593` 未持罐到交接；右：`af182185` 严格完成抓放 |
+| [![DAgger 版完整抓放成功](media/replays/pick-place.gif)](media/replays/pick-place.mp4) | `af182185 + 9549e9c8 + IK` 抓取、搬运并放入黑布 |
 | [![完整抓放越界失败](media/replays/pick-place-overhang.gif)](media/replays/pick-place-overhang.mp4) | 反例：选对黑布，但罐底越过布边 |
 | [![抓取能力改善对比](media/replays/grasp-recovery.gif)](media/replays/grasp-recovery.mp4) | 新开发工况：父版未抓起，候选版稳持 |
 | [![抓取能力回退对比](media/replays/grasp-regression.gif)](media/replays/grasp-regression.mp4) | 取舍：父版稳持，候选版未能持续抬升 |
